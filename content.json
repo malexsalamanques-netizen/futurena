@@ -1,7 +1,7 @@
 {
   "_schema": {
     "id": "unique string; defines order context only",
-    "type": "'bite' | 'essay'  — bite = curated external work; essay = your own writing",
+    "type": "'bite' | 'microensayo'  — bite = curated external work; microensayo = your own writing",
     "date": "YYYY-MM-DD (newest first in the file)",
     "thumbnail": "URL or relative path like 'assets/img/paisajes.jpg'",
     "thumbnail_alt": { "es": "...", "en": "..." },
@@ -9,14 +9,14 @@
     "essay": { "es": "your short framing, 2–4 sentences", "en": "..." },
     "url": "BITES ONLY: the single link the tile points to",
     "source": "BITES ONLY: domain or attribution shown under the tile",
-    "sources": "ESSAYS ONLY: array of {name, url} pairs, rendered as a list on the tile",
+    "sources": "MICROENSAYOS ONLY: array of {name, url} pairs, rendered as a list on the tile",
     "tags": ["array", "of", "tags"],
     "size": "'standard' | 'wide' — wide spans 2 columns on desktop"
   },
   "modules": [
     {
       "id": "002",
-      "type": "essay",
+      "type": "microensayo",
       "date": "2026-05-13",
       "thumbnail": "https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/1200x630/public/field/image/article/zzk2.jpg?itok=Uys67xvc",
       "thumbnail_alt": {
@@ -64,7 +64,7 @@
     },
     {
       "id": "000-demo-essay",
-      "type": "essay",
+      "type": "microensayo",
       "date": "2026-05-01",
       "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1200&q=80",
       "thumbnail_alt": {

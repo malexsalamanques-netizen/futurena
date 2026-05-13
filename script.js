@@ -14,7 +14,7 @@
       sub: "Micro ensayos y señales curadas sobre cómo la región imagina, escribe y construye lo que viene.",
       filter_all: "Todo",
       filter_bite: "Señales",
-      filter_essay: "Ensayos",
+      filter_microensayo: "Microensayos",
       search_label: "Buscar",
       search_placeholder: "buscar por título, etiqueta o fuente…",
       empty: "Sin resultados. Probá con otra palabra.",
@@ -22,7 +22,7 @@
         "Futureña es un proyecto independiente de Malex Salamanqués. Sin afiliación ni algoritmo.",
       footer_email: "Escribir",
       footer_year: "MMXXVI",
-      type_essay: "Ensayo",
+      type_microensayo: "Microensayo",
       type_bite: "Señal",
       count_one: "1 módulo",
       count_many: "{n} módulos",
@@ -32,7 +32,7 @@
       sub: "Micro essays and curated signals on how the region imagines, writes and builds what comes next.",
       filter_all: "All",
       filter_bite: "Bites",
-      filter_essay: "Essays",
+      filter_microensayo: "Microessays",
       search_label: "Search",
       search_placeholder: "search title, tag or source…",
       empty: "No results. Try a different word.",
@@ -40,7 +40,7 @@
         "Futureña is an independent project by Malex Salamanqués. No affiliation, no algorithm.",
       footer_email: "Write",
       footer_year: "MMXXVI",
-      type_essay: "Essay",
+      type_microensayo: "Microessay",
       type_bite: "Bite",
       count_one: "1 module",
       count_many: "{n} modules",
@@ -205,7 +205,7 @@
       m.thumbnail_alt?.es ||
       title ||
       "";
-    const typeLabel = m.type === "essay" ? t.type_essay : t.type_bite;
+    const typeLabel = m.type === "microensayo" ? t.type_microensayo : t.type_bite;
     const sizeClass = m.size === "wide" ? "is-wide" : "";
     const num = String(m.id || "").slice(0, 6);
 
@@ -232,7 +232,7 @@
     // Multi-source list (essays only). Renders inside the tile-body.
     const sourcesLabel = lang === "es" ? "Fuentes" : "Sources";
     const sourcesList =
-      m.type === "essay" && Array.isArray(m.sources) && m.sources.length
+      m.type === "microensayo" && Array.isArray(m.sources) && m.sources.length
         ? `<ul class="tile-sources" aria-label="${sourcesLabel}">
              ${m.sources
                .map(
@@ -271,7 +271,7 @@
     // Essays with multiple sources: tile is NOT a single link
     // (each source row is its own link inside).
     const isMultiSourceEssay =
-      m.type === "essay" && Array.isArray(m.sources) && m.sources.length > 0;
+      m.type === "microensayo" && Array.isArray(m.sources) && m.sources.length > 0;
 
     if (m.url && !isMultiSourceEssay) {
       return `
