@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="futureña — observatorio independiente de narrativas de futuros emergentes desde Latinoamérica." />
+  <meta property="og:title" content="futureña" />
+  <meta property="og:description" content="Observatorio independiente de narrativas de futuros emergentes desde Latinoamérica." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://xn--futurea-9za.com/" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23111'/%3E%3Crect x='20' y='20' width='25' height='25' fill='%23fff'/%3E%3Crect x='55' y='20' width='25' height='25' fill='%23fff'/%3E%3Crect x='20' y='55' width='25' height='25' fill='%23fff'/%3E%3C/svg%3E" />
+  <title>futureña — observatorio de futuros latinoamericanos</title>
+  <link rel="stylesheet" href="styles.css?v=10" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-grid">
+      <a href="/" class="logotype" aria-label="futureña">
+        <img src="Futurena_logo.png" alt="futureña" class="logotype-img" width="886" height="192" />
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <button class="lang-toggle" data-lang-switch aria-label="Switch language">
+          <span data-current-lang>ES</span>
+          <span class="lang-sep">/</span>
+          <span data-other-lang>EN</span>
+        </button>
+      </nav>
+    </div>
+    <div class="hero">
+      <h1 class="hero-title" data-i18n="title">Observatorio de futuros latinoamericanos.</h1>
+      <p class="hero-sub" data-i18n="sub">Micro ensayos y señales curadas sobre cómo la región imagina, escribe y construye lo que viene.</p>
+    </div>
+    <div class="control-bar">
+      <div class="filter-bar" role="tablist" aria-label="Filter">
+        <button class="filter active" data-filter="all" role="tab" aria-selected="true" data-i18n="filter_all">Todo</button>
+        <button class="filter" data-filter="bite" role="tab" aria-selected="false" data-i18n="filter_bite">Señales</button>
+        <button class="filter" data-filter="essay" role="tab" aria-selected="false" data-i18n="filter_essay">Ensayos</button>
+      </div>
+      <div class="search-wrap" role="search">
+        <label class="search-label" for="search-input" data-i18n="search_label">Buscar</label>
+        <input
+          id="search-input"
+          class="search-input"
+          type="search"
+          autocomplete="off"
+          spellcheck="false"
+          data-i18n-attr="placeholder:search_placeholder"
+          placeholder="buscar por título, etiqueta o fuente…"
+        />
+        <span class="search-count" data-search-count aria-live="polite"></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-section">
+    <p class="empty-state" data-empty hidden data-i18n="empty">Sin resultados. Probá con otra palabra.</p>
+    <main class="grid" id="grid">
+      <!-- Items injected by script.js -->
+    </main>
+  </div>
+
+  <div class="page-section">
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <p class="footer-text" data-i18n="footer_about">Futureña es un proyecto independiente de Malex Salamanqués. Sin afiliación ni algoritmo.</p>
+        <p class="footer-meta">
+          <a href="mailto:hola@xn--futurea-9za.com" data-i18n="footer_email">Escribir</a>
+          <span aria-hidden="true">·</span>
+          <span data-i18n="footer_year">MMXXVI</span>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js?v=6" defer></script>
+</body>
+</html>

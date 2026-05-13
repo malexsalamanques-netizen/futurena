@@ -1,0 +1,58 @@
+{
+  "_schema": {
+    "id": "unique string; defines order context only",
+    "type": "'bite' | 'essay'  — bite = curated external work; essay = your own writing",
+    "date": "YYYY-MM-DD (newest first in the file)",
+    "thumbnail": "URL or relative path like 'assets/img/paisajes.jpg'",
+    "thumbnail_alt": { "es": "...", "en": "..." },
+    "title": { "es": "...", "en": "..." },
+    "essay": { "es": "your short framing, 2–4 sentences", "en": "..." },
+    "url": "link to the source (bites) or to a longer piece (essays, optional)",
+    "source": "domain or attribution shown under the tile",
+    "tags": ["array", "of", "tags"],
+    "size": "'standard' | 'wide' — wide spans 2 columns on desktop"
+  },
+  "modules": [
+    {
+      "id": "001",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.naun.xyz/images/paisajes.jpg",
+      "thumbnail_alt": {
+        "es": "Visualización del proyecto Paisajes Sonoros de Nahun Saldaña.",
+        "en": "Visual from Nahun Saldaña's Paisajes Sonoros project."
+      },
+      "title": {
+        "es": "Cartografías de la selva que se calla.",
+        "en": "Mapping a jungle that goes quiet."
+      },
+      "essay": {
+        "es": "Nahun Saldaña graba la selva mientras enmudece. Su archivo de paisajes sonoros funciona como una cartografía de ausencias: cada motosierra, cada aullido que se apaga, marca el contorno de un futuro que se está cerrando. Aquí el sonido es método. Una manera de medir lo que todavía podemos imaginar.",
+        "en": "Nahun Saldaña records the jungle as it falls silent. His soundscape archive operates as a cartography of absences. Every chainsaw, every fading howl traces the edges of a future closing in on itself. Sound becomes method here. A way to measure what we can still imagine."
+      },
+      "url": "https://www.naun.xyz/projects/paisajes",
+      "source": "naun.xyz",
+      "tags": ["paisaje sonoro", "selva", "clima", "arte sonoro", "cartografía"]
+    },
+    {
+      "id": "000-demo-essay",
+      "type": "essay",
+      "date": "2026-05-01",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1200&q=80",
+      "thumbnail_alt": {
+        "es": "Demo: imagen reemplazable para un ensayo propio.",
+        "en": "Demo: replaceable image for an in-house essay."
+      },
+      "title": {
+        "es": "Ejemplo: aquí va un ensayo propio.",
+        "en": "Example: an in-house essay would go here."
+      },
+      "essay": {
+        "es": "Este es un módulo de demostración. Reemplazá la imagen, el título y este texto para publicar tu primer ensayo. Borrá esta entrada cuando ya no la necesites.",
+        "en": "This is a demo module. Replace the image, title and this text to publish your first essay. Delete this entry when you no longer need it."
+      },
+      "source": "futureña",
+      "tags": ["demo"]
+    }
+  ]
+}
