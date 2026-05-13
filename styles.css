@@ -407,6 +407,51 @@ button {
   margin-bottom: 14px;
 }
 
+/* Multi-source list for essays */
+.tile-sources {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 16px 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.tile-sources li {
+  border-top: 1px solid var(--line-soft);
+}
+
+.tile-sources li:last-child {
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.tile-sources a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  transition: color 120ms ease, padding 200ms ease;
+}
+
+.tile-sources a:hover {
+  color: var(--ink);
+  padding-left: 6px;
+}
+
+.tile-sources-arrow {
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.tile-sources a:hover .tile-sources-arrow {
+  transform: translate(2px, -2px);
+  opacity: 1;
+}
+
 .tile-tag {
   font-family: var(--font-mono);
   font-size: 10px;

@@ -229,6 +229,23 @@
             .join("")}</div>`
         : "";
 
+    // Multi-source list (essays only). Renders inside the tile-body.
+    const sourcesLabel = lang === "es" ? "Fuentes" : "Sources";
+    const sourcesList =
+      m.type === "essay" && Array.isArray(m.sources) && m.sources.length
+        ? `<ul class="tile-sources" aria-label="${sourcesLabel}">
+             ${m.sources
+               .map(
+                 (s) =>
+                   `<li><a href="${escapeAttr(s.url)}" target="_blank" rel="noopener">
+                      <span>${escapeHTML(s.name || s.url)}</span>
+                      <span class="tile-sources-arrow" aria-hidden="true">↗</span>
+                    </a></li>`
+               )
+               .join("")}
+           </ul>`
+        : "";
+
     const footer = `
       <div class="tile-footer">
         <span class="tile-source">${escapeHTML(m.source || dateStr || "")}</span>
@@ -246,11 +263,17 @@
         <h2 class="tile-title">${escapeHTML(title)}</h2>
         ${tags}
         <p class="tile-excerpt">${escapeHTML(essay)}</p>
+        ${sourcesList}
         ${footer}
       </div>
     `;
 
-    if (m.url) {
+    // Essays with multiple sources: tile is NOT a single link
+    // (each source row is its own link inside).
+    const isMultiSourceEssay =
+      m.type === "essay" && Array.isArray(m.sources) && m.sources.length > 0;
+
+    if (m.url && !isMultiSourceEssay) {
       return `
         <article class="tile ${sizeClass}" data-type="${escapeAttr(m.type)}">
           <a class="tile-link" href="${escapeAttr(m.url)}" target="_blank" rel="noopener">

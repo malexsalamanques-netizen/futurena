@@ -7,12 +7,40 @@
     "thumbnail_alt": { "es": "...", "en": "..." },
     "title": { "es": "...", "en": "..." },
     "essay": { "es": "your short framing, 2–4 sentences", "en": "..." },
-    "url": "link to the source (bites) or to a longer piece (essays, optional)",
-    "source": "domain or attribution shown under the tile",
+    "url": "BITES ONLY: the single link the tile points to",
+    "source": "BITES ONLY: domain or attribution shown under the tile",
+    "sources": "ESSAYS ONLY: array of {name, url} pairs, rendered as a list on the tile",
     "tags": ["array", "of", "tags"],
     "size": "'standard' | 'wide' — wide spans 2 columns on desktop"
   },
   "modules": [
+    {
+      "id": "002",
+      "type": "essay",
+      "date": "2026-05-13",
+      "thumbnail": "https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/1200x630/public/field/image/article/zzk2.jpg?itok=Uys67xvc",
+      "thumbnail_alt": {
+        "es": "ZZK Records, sello de cumbia digital fundado en Buenos Aires en 2008.",
+        "en": "ZZK Records, the Buenos Aires cumbia digital label founded in 2008."
+      },
+      "title": {
+        "es": "Del Soulseek al MUSAC.",
+        "en": "From Soulseek to MUSAC."
+      },
+      "essay": {
+        "es": "En 2008 la cumbia digital se compartía por Soulseek desde garages argentinos. En 2026 sus productores hacen residencias en MUSAC. Cuando un género entra al museo, ¿es consagración o archivo? Habrá que escuchar si la próxima generación todavía tiene dientes.",
+        "en": "In 2008 cumbia digital was traded on Soulseek out of Argentine garages. In 2026 its producers run residencies at MUSAC. When a genre enters the museum, is that consecration or archive? We'll have to listen for whether the next generation still has teeth."
+      },
+      "sources": [
+        { "name": "Radiónica", "url": "https://www.radionica.rocks/musica/artistas-internacionales/ritmos-bastardos-el-documental-de-la-cumbia-digital-en-argentina" },
+        { "name": "Resident Advisor", "url": "https://es.ra.co/labels/5403" },
+        { "name": "TamTam Press", "url": "https://tamtampress.es/2017/07/26/la-cumbia-digital-de-los-djs-ankla-y-bigote-llega-al-musac/" },
+        { "name": "León Cultural", "url": "https://leoncultural.com/evento/ciclo-tropiferica-la-actuacion-anklabigote-musac/" },
+        { "name": "Tiempo Argentino", "url": "https://www.tiempoar.com.ar/ta_article/ocho-discos-2026/" },
+        { "name": "Señal Colombia", "url": "https://www.senalcolombia.tv/general/10-discos-mas-esperados-de-2026" }
+      ],
+      "tags": ["cumbia digital", "zzk", "musac", "institucionalización", "contracultura", "argentina", "españa"]
+    },
     {
       "id": "001",
       "type": "bite",
