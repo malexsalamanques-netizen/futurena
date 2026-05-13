@@ -11,7 +11,7 @@
   const I18N = {
     es: {
       title: "Observatorio de futuros latinoamericanos.",
-      sub: "Micro ensayos y señales curadas sobre cómo la región imagina, escribe y construye lo que viene.",
+      sub: "Microensayos y señales curadas sobre cómo la región imagina, escribe y construye lo que viene.",
       filter_all: "Todo",
       filter_bite: "Señales",
       filter_microensayo: "Microensayos",
@@ -29,7 +29,7 @@
     },
     en: {
       title: "Observatory of Latin American futures.",
-      sub: "Micro essays and curated signals on how the region imagines, writes and builds what comes next.",
+      sub: "Microessays and curated signals on how the region imagines, writes and builds what comes next.",
       filter_all: "All",
       filter_bite: "Bites",
       filter_microensayo: "Microessays",
@@ -165,6 +165,7 @@
     const visible = state.modules.filter(matches);
 
     gridEl.innerHTML = visible.map(tileHTML).join("");
+    bindMicroensayoOpeners(visible);
 
     if (visible.length === 0) {
       emptyEl.hidden = false;
@@ -174,6 +175,105 @@
       const tmpl = visible.length === 1 ? t.count_one : t.count_many;
       searchCount.textContent = tmpl.replace("{n}", visible.length);
     }
+  }
+
+  // ---------- Modal ----------
+  const modalEl = document.querySelector("[data-modal]");
+  const modalBody = document.querySelector("[data-modal-body]");
+
+  function openModal(m) {
+    const lang = state.lang;
+    const t = I18N[lang];
+    const title = (m.title && m.title[lang]) || m.title?.es || "";
+    const essay = (m.essay && m.essay[lang]) || m.essay?.es || "";
+    const altText =
+      (m.thumbnail_alt && m.thumbnail_alt[lang]) ||
+      m.thumbnail_alt?.es ||
+      title ||
+      "";
+    const num = String(m.id || "");
+    const typeLabel = m.type === "microensayo" ? t.type_microensayo : t.type_bite;
+
+    const thumbHTML = m.thumbnail
+      ? `<div class="modal-thumb"><img src="${escapeAttr(m.thumbnail)}" alt="${escapeAttr(altText)}" /></div>`
+      : "";
+
+    const tagsHTML =
+      Array.isArray(m.tags) && m.tags.length
+        ? `<div class="modal-tags">${m.tags
+            .map((tag) => `<span class="modal-tag">${escapeHTML(tag)}</span>`)
+            .join("")}</div>`
+        : "";
+
+    const sourcesLabel = lang === "es" ? "Fuentes" : "Sources";
+    const sourcesHTML =
+      Array.isArray(m.sources) && m.sources.length
+        ? `<p class="modal-sources-label">${sourcesLabel}</p>
+           <ul class="modal-sources">
+             ${m.sources
+               .map(
+                 (s) =>
+                   `<li><a href="${escapeAttr(s.url)}" target="_blank" rel="noopener">
+                      <span>${escapeHTML(s.name || s.url)}</span>
+                      <span aria-hidden="true">↗</span>
+                    </a></li>`
+               )
+               .join("")}
+           </ul>`
+        : "";
+
+    // Convert \n\n into <p> blocks for prose readability
+    const essayParagraphs = essay
+      .split(/\n\n+/)
+      .map((p) => `<p>${escapeHTML(p)}</p>`)
+      .join("");
+
+    modalBody.innerHTML = `
+      ${thumbHTML}
+      <div class="modal-meta">
+        <span>№ ${escapeHTML(num)}</span>
+        <span>${escapeHTML(typeLabel)}</span>
+      </div>
+      <h2 class="modal-title">${escapeHTML(title)}</h2>
+      ${tagsHTML}
+      <div class="modal-essay">${essayParagraphs}</div>
+      ${sourcesHTML}
+    `;
+    modalEl.hidden = false;
+    modalEl.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+    modalEl.querySelector(".modal-close")?.focus();
+  }
+
+  function closeModal() {
+    modalEl.hidden = true;
+    modalEl.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+    modalBody.innerHTML = "";
+  }
+
+  // Modal global event bindings (once)
+  if (modalEl) {
+    modalEl.addEventListener("click", (e) => {
+      if (e.target.closest("[data-modal-close]")) {
+        closeModal();
+      }
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !modalEl.hidden) closeModal();
+    });
+  }
+
+  function bindMicroensayoOpeners(visibleModules) {
+    $$('.tile[data-type="microensayo"]').forEach((tileEl) => {
+      tileEl.addEventListener("click", (e) => {
+        // Let source links and other anchors behave normally
+        if (e.target.closest("a")) return;
+        const id = tileEl.dataset.id;
+        const m = visibleModules.find((x) => x.id === id);
+        if (m) openModal(m);
+      });
+    });
   }
 
   function matches(m) {
@@ -275,7 +375,7 @@
 
     if (m.url && !isMultiSourceEssay) {
       return `
-        <article class="tile ${sizeClass}" data-type="${escapeAttr(m.type)}">
+        <article class="tile ${sizeClass}" data-type="${escapeAttr(m.type)}" data-id="${escapeAttr(m.id)}">
           <a class="tile-link" href="${escapeAttr(m.url)}" target="_blank" rel="noopener">
             ${body}
           </a>
@@ -284,7 +384,7 @@
     }
 
     return `
-      <article class="tile ${sizeClass}" data-type="${escapeAttr(m.type)}">
+      <article class="tile ${sizeClass}" data-type="${escapeAttr(m.type)}" data-id="${escapeAttr(m.id)}">
         ${body}
       </article>
     `;

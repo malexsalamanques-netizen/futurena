@@ -9,408 +9,12 @@
     "essay": { "es": "your short framing", "en": "..." },
     "url": "BITES ONLY: the single link the tile points to",
     "source": "BITES ONLY: domain or attribution shown under the tile",
-    "sources": "MICROENSAYOS ONLY: array of {name, url} pairs, rendered as a list on the tile",
-    "tags": ["array", "of", "tags"],
-    "size": "'standard' | 'wide' — wide spans 2 columns on desktop"
+    "sources": "MICROENSAYOS ONLY: array of {name, url} pairs, rendered in the modal",
+    "tags": ["array", "of", "tags"]
   },
   "modules": [
     {
-      "id": "M.01",
-      "type": "microensayo",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Soberanía residual: el sur fabrica con lo que el norte no sabe usar.",
-        "en": "Residual sovereignty: the South builds with what the North doesn't know how to use."
-      },
-      "essay": {
-        "es": "Cinco operaciones latinoamericanas convergen sin haberse coordinado. Mycocrea fabrica empaques con yerba mate vencida. CENAMAD produce paneles con residuos forestales. El Bajío mexicano desarrolla biotabique sobre paja de cultivos. Habitar el Micelio repiensa la jerarquía interespecies desde Bogotá. Funginnova institucionaliza la red fúngica mexicana. En paralelo, los pueblos amazónicos exportan «cultura alimentaria» a la FAO como categoría que entiende al bosque como sistema vivo, y la fermentación doméstica se instala como tecnología antiinflacionaria silenciosa. La operación material es precisa: el residuo deja de leerse como descarte y se incorpora al circuito productivo, el tiempo se vuelve ingrediente activo.\n\nImporta porque produce un vocabulario que el centro no puede importar sin transformarse antes. La startup europea habla de «circularidad» desde la abundancia. El laboratorio latinoamericano habla de soberanía residual desde la memoria de la escasez. Esa diferencia ofrece a la región una posición de saber inusual: ser laboratorio de modelos económicos que requieren memoria de carencia para funcionar. Si las redes fúngicas y las cocinas amazónicas escalan sin disolverse en estética de feria, la región puede ofrecer un modelo de producción que no necesita primero acumular y luego repartir. Eso es world-making en sentido fuerte. Está produciendo lengua, no solo objeto. La pregunta abierta es si el vocabulario se nombra antes de que el lujo lo capture y lo devuelva como producto premium con sticker de «ancestral wisdom».",
-        "en": "Five Latin American operations converge without coordinating. Mycocrea makes packaging from expired yerba mate. CENAMAD produces panels from forestry residues. Mexico's Bajío develops mycelium bricks on crop straw. Habitar el Micelio rethinks interspecies hierarchy from Bogotá. Funginnova institutionalises Mexico's fungal network. In parallel, Amazonian peoples export «food culture» to the FAO as a category that reads the forest as a living system, and home fermentation installs itself as a quiet anti-inflation technology. The material operation is precise: residue stops being read as waste and enters the productive circuit, time becomes an active ingredient.\n\nIt matters because it produces a vocabulary the centre can't import without first transforming itself. The European start-up talks about «circularity» from abundance. The Latin American laboratory talks about residual sovereignty from the memory of scarcity. That difference gives the region an unusual epistemic position: a laboratory for economic models that require a memory of lack to function. If fungal networks and Amazonian kitchens scale without dissolving into fair-aesthetic, the region can offer a model of production that doesn't first accumulate and then redistribute. That is world-making in the strong sense. It is producing language, not only objects. The open question is whether the vocabulary gets named before luxury captures it and sells it back as a premium product with an «ancestral wisdom» sticker."
-      },
-      "sources": [
-        { "name": "S.01 · Cambian el Mundo (Mycocrea)", "url": "https://www.cambianelmundo.com/utiliza-residuos-de-hongos-para-crear-packaging-sustentable-que-reemplaza-el-telgopor/" },
-        { "name": "S.02 · SciELO México (biotabique)", "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2594-19252024000300102" },
-        { "name": "S.03 · Zona Docs (Funginnova)", "url": "https://www.zonadocs.mx/2026/04/21/es-tiempo-de-hongos-cultivando-el-futuro-de-la-micologia/" },
-        { "name": "S.04 · Idartes (Habitar el Micelio)", "url": "https://www.idartes.gov.co/es/articulos/materialidades-conjuntas-otros-mundos-posibles-al-habitar-con-el-micelio" },
-        { "name": "S.05 · Madera21 (CENAMAD UC)", "url": "https://www.madera21.cl/micelio-e-innovacion-hongos-que-convierten-residuos-forestales-en-biomateriales-sostenibles-para-la-construccion/" },
-        { "name": "S.06 · Heinrich Böll (cultura alimentaria)", "url": "https://www.boell.de/en/2026/01/09/amazon-world-food-culture-key-food-security-and-human-rights" },
-        { "name": "S.07 · Taylor & Francis (Oriximiná)", "url": "https://www.tandfonline.com/doi/full/10.1080/03066150.2024.2310149" },
-        { "name": "S.19 · Fine Dining Lovers (fermentación)", "url": "https://www.finedininglovers.lat/explorar/noticias/tendencias-gastronomicas-2026-en-latinoamerica" }
-      ],
-      "tags": ["biomateriales", "micelio", "soberanía", "amazonía", "fermentación", "economía"]
-    },
-    {
-      "id": "M.02",
-      "type": "microensayo",
-      "date": "2026-05-13",
-      "title": {
-        "es": "La cosmovisión como sistema operativo, no como decoración.",
-        "en": "Cosmovision as operating system, not decoration."
-      },
-      "essay": {
-        "es": "Hay un patrón silencioso que conecta tres frentes. Los diseñadores andinos organizan colecciones por pachas (Hanan, Kay, Ukhu) y llevan ese marco a Copenhague Fashion Week como gramática conceptual de venta. Los pueblos amazónicos exportan «cultura alimentaria» a la FAO con cinco dimensiones articuladas que entran a protocolos multilaterales. Bolivia y Ecuador formalizaron derechos constitucionales para la Pachamama y la Naturaleza, hoy referencia jurídica en debates ambientales globales. La cosmovisión dejó de funcionar como objeto antropológico y aparece ahora como software conceptual. Estructura para diseñar colección, categoría para diseñar política pública, sujeto para diseñar derecho. La operación es semántica antes que estética.\n\nLo decisivo es que la cosmovisión formalizada se transfiere sin perder densidad porque está estructurada como sistema. Una constitución inspira otra constitución. Una categoría FAO viaja por sus protocolos. Una estructura tripartita de pachas puede inspirar arquitectura de software o currículum educativo. La región está produciendo gramática para imaginar al planeta como entramado de sujetos y no como recurso. Esa gramática es exportable de un modo que la estética latinoamericana nunca fue. La pregunta abierta es cuánta densidad sobrevive al viaje. Hanan Pacha leído por curaduría escandinava se vuelve concepto vacío. Pachamama leída por marketing verde europeo se vuelve etiqueta. Defender la integridad conceptual durante la exportación es la próxima pelea cultural seria. Y es una pelea donde Latinoamérica tiene, por primera vez en mucho tiempo, posición de hablante original.",
-        "en": "A quiet pattern connects three fronts. Andean designers organise collections by pachas (Hanan, Kay, Ukhu) and bring that frame to Copenhagen Fashion Week as a conceptual grammar of sale. Amazonian peoples export «food culture» to the FAO with five articulated dimensions that enter multilateral protocols. Bolivia and Ecuador formalised constitutional rights for Pachamama and Nature, now a legal reference in global environmental debates. Cosmovision has stopped functioning as an anthropological object and now appears as conceptual software. A structure for designing a collection, a category for designing public policy, a subject for designing rights. The operation is semantic before it is aesthetic.\n\nThe decisive thing is that formalised cosmovision transfers without losing density because it is structured as a system. One constitution inspires another. An FAO category travels through its protocols. A tripartite pachas structure can inspire software architecture or educational curriculum. The region is producing grammar to imagine the planet as a web of subjects rather than a resource. That grammar is exportable in a way Latin American aesthetics never were. The open question is how much density survives the trip. Hanan Pacha read by Scandinavian curators becomes an empty concept. Pachamama read by European green marketing becomes a label. Defending conceptual integrity during export is the next serious cultural fight. And it's a fight where Latin America has, for the first time in a long while, the position of an original speaker."
-      },
-      "sources": [
-        { "name": "S.06 · Heinrich Böll (cultura alimentaria)", "url": "https://www.boell.de/en/2026/01/09/amazon-world-food-culture-key-food-security-and-human-rights" },
-        { "name": "S.07 · Taylor & Francis (Oriximiná)", "url": "https://www.tandfonline.com/doi/full/10.1080/03066150.2024.2310149" },
-        { "name": "S.08 · FAO (Alimenta Cidades)", "url": "https://www.fao.org/food-systems/news/news-detail/the-alimenta-cidades-(feeding-cities)-strategy-in-brazil--catalysing-policy-alignment-from-the-municipal-level/en" },
-        { "name": "S.13 · Vogue Scandinavia (pachas)", "url": "https://www.voguescandinavia.com/articles/meet-the-10-peruvian-designers-set-to-shine-in-copenhagen-this-month" },
-        { "name": "S.14 · Not Just A Label (Juan de la Paz)", "url": "https://industry.notjustalabel.com/juan-de-la-paz" },
-        { "name": "S.16 · UNICEF (Guardianes por la Vida)", "url": "https://www.unicef.org/lac/la-juventud-por-el-clima" },
-        { "name": "S.17 · UNICEF Ecuador (Engaja Jovem)", "url": "https://www.unicef.org/ecuador/adolescentes-y-j%C3%B3venes-contra-el-cambio-clim%C3%A1tico" }
-      ],
-      "tags": ["cosmovisión", "andino", "amazónico", "política pública", "moda", "exportación cultural"]
-    },
-    {
-      "id": "M.03",
-      "type": "microensayo",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Exportar sin traductor: la lengua propia como capital.",
-        "en": "Exporting without a translator: native tongue as capital."
-      },
-      "essay": {
-        "es": "Tres frentes muestran lo mismo desde lados distintos del mapa. El funk carioca circula a 150 BPM por clubs europeos sin pedir traducción al inglés. La cumbia digital argentina entra al MUSAC sosteniendo castellano regional y referencias barriales. Los diseñadores mexicanos exportan moda al circuito global manteniendo Otomí, macramé y nombres en lenguas originarias en las etiquetas que llegan a Wallpaper. La generación previa del boom latino requería puentes intermediarios. Ahora la operación es otra. Los creadores latinos están forzando al algoritmo a aprender el acento, en lugar de aceptar doblar el contenido. Spotify ajusta sus recomendaciones. TikTok acepta hashtags regionales. Los editores europeos publican etiquetas en lenguas indígenas sin glosario adjunto.\n\nLa implicación es estructural antes que estética. Por primera vez en décadas, el pop global está siendo obligado a escuchar antes de exigir doblaje. Sería ingenuo leerlo como triunfo limpio. Hay riesgos serios: el filtro algorítmico al funk pesado por su lírica, la fijación museística de la cumbia digital, la gentrificación creativa que expulsa a los productores que la moda celebra. Pero el cambio gramatical ya ocurrió. La pregunta pasa de «¿puede exportar?» a «¿qué construye con su posición de hablante?». Esa posición es world-making porque permite producir formatos culturales que el mercado global aprende a recibir sin reescribir. Soberanía lingüística aplicada a la industria, conquistada pieza por pieza durante dos décadas, ahora transferible a cualquier otra industria creativa regional con voluntad política de no doblarse.",
-        "en": "Three fronts show the same thing from different sides of the map. Carioca funk circulates at 150 BPM through European clubs without asking for English translation. Argentine cumbia digital enters the MUSAC holding on to regional Spanish and neighbourhood references. Mexican designers export fashion to the global circuit keeping Otomí, macramé and names in indigenous languages on the labels that reach Wallpaper. The previous Latin boom generation needed intermediary bridges. Now the operation is different. Latin creators are forcing the algorithm to learn the accent rather than accepting to dub the content. Spotify adjusts its recommendations. TikTok accepts regional hashtags. European editors publish labels in indigenous languages with no glossary attached.\n\nThe implication is structural before it is aesthetic. For the first time in decades, global pop is being forced to listen before demanding a dub. It would be naive to read this as a clean win. The risks are serious: algorithmic filtering of heavy funk for its lyrics, the museum fixation of cumbia digital, the creative gentrification that expels the very producers fashion celebrates. But the grammatical change has already happened. The question moves from «can it export?» to «what does it build with its position as a speaker?». That position is world-making because it allows production of cultural formats that the global market learns to receive without rewriting. Linguistic sovereignty applied to industry, won piece by piece over two decades, now transferable to any other regional creative industry willing to refuse the dub."
-      },
-      "sources": [
-        { "name": "S.09 · Wallpaper (CDMX designers)", "url": "https://www.wallpaper.com/design-interiors/emerging-mexican-designers-2026" },
-        { "name": "S.12 · Latin Video Remix (funk carioca)", "url": "https://latinvideoremix.com/baile-funk-dj-trend-2026/" },
-        { "name": "S.13 · Vogue Scandinavia (pachas)", "url": "https://www.voguescandinavia.com/articles/meet-the-10-peruvian-designers-set-to-shine-in-copenhagen-this-month" },
-        { "name": "S.14 · Not Just A Label (Juan de la Paz)", "url": "https://industry.notjustalabel.com/juan-de-la-paz" },
-        { "name": "S.15 · TamTam Press (Tropiférica MUSAC)", "url": "https://tamtampress.es/2017/07/26/la-cumbia-digital-de-los-djs-ankla-y-bigote-llega-al-musac/" }
-      ],
-      "tags": ["lengua", "soberanía cultural", "música", "moda", "industria creativa"]
-    },
-    {
-      "id": "M.04",
-      "type": "microensayo",
-      "date": "2026-05-13",
-      "title": {
-        "es": "El cuerpo y el suelo: una alternativa al horizonte transhumanista.",
-        "en": "The body and the ground: an alternative to the transhumanist horizon."
-      },
-      "essay": {
-        "es": "Mientras el transhumanismo californiano sueña con subir la consciencia a la nube, varios frentes latinoamericanos hacen lo opuesto con consistencia. La ciencia ficción regional insiste en cuerpos modificados (prótesis, marcas, cicatrices), no en consciencias digitales. La arquitectura social devuelve vivienda popular al centro de las ciudades en lugar de aceptar su expulsión periférica. Los laboratorios de biomateriales fabrican con hongos y residuos físicos. Los movimientos climáticos juveniles defienden territorios con nombre propio en lugar de causas abstractas. La operación común es de anclaje radical: pensar el futuro desde la materia, desde el lugar, desde el cuerpo que carga la marca del poder y desde el suelo que decide qué crece.\n\nEsto construye una alternativa filosófica seria al horizonte transhumanista que domina el imaginario tecnológico global. La hipótesis es que el futuro latinoamericano ofrecerá un modelo poscapitalista que no requiere escapar para imaginarse próspero, que no necesita salir del cuerpo ni del territorio ni de la comunidad. Eso es ofensa filosófica directa a buena parte de Silicon Valley y Davos, donde el futuro deseable suele implicar desencarnación, desterritorialización o ambas. Si la región logra articular este modelo con vocabulario propio antes de que la curaduría del Norte lo capture como «low-tech romanticism» o «decolonial chic», pone sobre la mesa global una opción real que el imaginario dominante todavía no ha sabido nombrar. Mantener el cuerpo y el suelo en el centro de la imaginación de futuro es, ahora, gesto político de primera línea.",
-        "en": "While Californian transhumanism dreams of uploading consciousness to the cloud, several Latin American fronts do the opposite consistently. The region's science fiction insists on modified bodies (prosthetics, marks, scars), not digital consciousness. Social architecture returns popular housing to the centre of cities rather than accepting its expulsion to the periphery. Biomaterial labs make with fungi and physical residues. Youth climate movements defend territories with proper names rather than abstract causes. The common operation is one of radical anchoring: thinking the future from matter, from place, from the body that carries the mark of power, from the ground that decides what grows.\n\nThis builds a serious philosophical alternative to the transhumanist horizon that dominates the global technological imaginary. The hypothesis is that the Latin American future will offer a post-capitalist model that doesn't require escape in order to imagine itself prosperous, that doesn't need to leave the body, the territory or the community. That is a direct philosophical offence to much of Silicon Valley and Davos, where the desirable future tends to imply disembodiment, deterritorialisation or both. If the region manages to articulate this model with its own vocabulary before Northern curation captures it as «low-tech romanticism» or «decolonial chic», it puts on the global table a real option the dominant imaginary has not yet known how to name. Keeping the body and the ground at the centre of the imagination of the future is, now, a front-line political gesture."
-      },
-      "sources": [
-        { "name": "S.01 · Cambian el Mundo (Mycocrea)", "url": "https://www.cambianelmundo.com/utiliza-residuos-de-hongos-para-crear-packaging-sustentable-que-reemplaza-el-telgopor/" },
-        { "name": "S.05 · Madera21 (CENAMAD UC)", "url": "https://www.madera21.cl/micelio-e-innovacion-hongos-que-convierten-residuos-forestales-en-biomateriales-sostenibles-para-la-construccion/" },
-        { "name": "S.10 · Bogotá.gov.co (Renacer Central)", "url": "https://bogota.gov.co/mi-ciudad/habitat/177-familias-accederan-vivienda-social-en-el-centro-de-bogota-2026" },
-        { "name": "S.11 · UCatólica (Soacha)", "url": "https://revistadearquitectura.ucatolica.edu.co/article/view/1271" },
-        { "name": "S.16 · UNICEF (Guardianes por la Vida)", "url": "https://www.unicef.org/lac/la-juventud-por-el-clima" },
-        { "name": "S.17 · UNICEF Ecuador (Engaja Jovem)", "url": "https://www.unicef.org/ecuador/adolescentes-y-j%C3%B3venes-contra-el-cambio-clim%C3%A1tico" },
-        { "name": "S.18 · Latin American Literature Today (cyberpunk)", "url": "https://latinamericanliteraturetoday.org/2018/02/leaving-behind-realitys-ruins-following-digital-tracks-latin-american-cyberpunk/" }
-      ],
-      "tags": ["transhumanismo", "cuerpo", "territorio", "filosofía", "futuros"]
-    },
-    {
-      "id": "S.01",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Mycocrea cumple ocho años fabricando con micelio en Buenos Aires.",
-        "en": "Mycocrea turns eight making with mycelium in Buenos Aires."
-      },
-      "essay": {
-        "es": "Desde 2017, este laboratorio porteño produce empaques y objetos de diseño con una mezcla de micelio, kombucha y bioplásticos hechos de yerba mate. Ocho años de operación lo convierten en la unidad de biomateriales fúngicos más madura del Cono Sur. La operación específica: usa residuos del agro rioplatense (yerba mate vencida, bagazo) como alimento del hongo, fabricando lo que conviene nombrar como soberanía residual antes que economía circular.",
-        "en": "Since 2017 this Buenos Aires lab has produced packaging and design objects from a mix of mycelium, kombucha and bioplastics made from yerba mate. Eight years of operation make it the most mature fungal biomaterials unit in the Southern Cone. The specific operation: it feeds the fungus with residues from the local agro-economy (expired yerba mate, sugarcane bagasse), making what is better called residual sovereignty than circular economy."
-      },
-      "url": "https://www.cambianelmundo.com/utiliza-residuos-de-hongos-para-crear-packaging-sustentable-que-reemplaza-el-telgopor/",
-      "source": "cambianelmundo.com",
-      "tags": ["biomateriales", "micelio", "argentina", "residuos"]
-    },
-    {
-      "id": "S.02",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Biotabique mexicano: micelio aplicado a vivienda económica.",
-        "en": "Mexican biotabique: mycelium applied to low-cost housing."
-      },
-      "essay": {
-        "es": "En la región Bajío, investigadores desarrollan ladrillos de construcción a partir de micelio crecido sobre paja de cultivos agrícolas. El prototipo tiene propiedades térmicas y mecánicas competitivas con materiales convencionales. Si escala a vivienda social, sería el primer caso latinoamericano documentado de biomaterial fúngico aplicado a construcción residencial real, no solo a packaging o mobiliario.",
-        "en": "In Mexico's Bajío region, researchers are developing construction bricks from mycelium grown on crop straw. The prototype has thermal and mechanical properties competitive with conventional materials. If it scales into social housing, it would be the first documented Latin American case of fungal biomaterial used in real residential construction, not just packaging or furniture."
-      },
-      "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2594-19252024000300102",
-      "source": "scielo.org.mx",
-      "tags": ["biomateriales", "micelio", "vivienda", "méxico"]
-    },
-    {
-      "id": "S.03",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Funginnova 2026: la red mexicana fúngica entra a política pública.",
-        "en": "Funginnova 2026: Mexico's fungal network enters public policy."
-      },
-      "essay": {
-        "es": "CIATEJ, CIAD e INIFAP, tres centros públicos de investigación mexicanos, convocaron el Primer Encuentro Nacional de Innovación y Desarrollo de Productos Fúngicos. La biotecnología fúngica deja de ser proyecto académico aislado y entra al circuito formal de política pública. Es el primer registro de coordinación interinstitucional pública en el rubro.",
-        "en": "CIATEJ, CIAD and INIFAP, three public Mexican research centres, convened the first National Meeting on Fungal Innovation and Product Development. Fungal biotechnology stops being an isolated academic project and enters the formal public policy circuit. It is the first recorded case of inter-institutional public coordination in this field."
-      },
-      "url": "https://www.zonadocs.mx/2026/04/21/es-tiempo-de-hongos-cultivando-el-futuro-de-la-micologia/",
-      "source": "zonadocs.mx",
-      "tags": ["micología", "política pública", "méxico", "biotecnología"]
-    },
-    {
-      "id": "S.04",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Habitar el Micelio: colectivo interdisciplinar bogotano.",
-        "en": "Habitar el Micelio: an interdisciplinary Bogotá collective."
-      },
-      "essay": {
-        "es": "Una artista visual (Isabela Izquierdo), una bióloga ecóloga (Natalia Cossio) y un arquitecto (Carlos Acosta) cuestionan la jerarquía antropocéntrica desde un laboratorio compartido en Bogotá. La señal no es técnica sino epistemológica: el biomaterial funciona aquí como excusa para repensar la relación humano-ecosistema, antes que como producto.",
-        "en": "A visual artist (Isabela Izquierdo), an ecologist (Natalia Cossio) and an architect (Carlos Acosta) question anthropocentric hierarchy from a shared lab in Bogotá. The signal is epistemological rather than technical: biomaterial works here as a pretext for rethinking the human-ecosystem relationship, not as a product."
-      },
-      "url": "https://www.idartes.gov.co/es/articulos/materialidades-conjuntas-otros-mundos-posibles-al-habitar-con-el-micelio",
-      "source": "idartes.gov.co",
-      "tags": ["micelio", "colombia", "arte", "interespecies"]
-    },
-    {
-      "id": "S.05",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "CENAMAD UC produce paneles de construcción con micelio sobre madera.",
-        "en": "CENAMAD UC builds construction panels with mycelium on wood waste."
-      },
-      "essay": {
-        "es": "El Centro Nacional de Excelencia para la Industria de la Madera de la Universidad Católica de Chile cultiva micelio sobre residuos forestales locales. Produce paneles con propiedades térmicas, mecánicas y acústicas competitivas. Es uno de los pocos centros académicos latinoamericanos dedicado específicamente al cruce entre micología aplicada e industria de la construcción.",
-        "en": "Chile's National Centre for Excellence in the Wood Industry (Universidad Católica) grows mycelium on local forestry residues. It produces panels with competitive thermal, mechanical and acoustic properties. It is one of the few Latin American academic centres specifically dedicated to the intersection of applied mycology and the construction industry."
-      },
-      "url": "https://www.madera21.cl/micelio-e-innovacion-hongos-que-convierten-residuos-forestales-en-biomateriales-sostenibles-para-la-construccion/",
-      "source": "madera21.cl",
-      "tags": ["biomateriales", "micelio", "chile", "construcción"]
-    },
-    {
-      "id": "S.06",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Cultura alimentaria desplaza a «gastronomía» en el Amazonas.",
-        "en": "Food culture displaces «gastronomy» in the Amazon."
-      },
-      "essay": {
-        "es": "Pueblos indígenas brasileños están rechazando explícitamente la palabra «gastronomía» porque captura solo el plato terminado y deja afuera el sistema. Proponen «cultura alimentaria» con cinco dimensiones articuladas: agricultura familiar, trabajo femenino, agrobiodiversidad, cuidado del bosque y preferencia por lo propio sobre lo industrial. La FAO empezó a adoptar el término como categoría operativa en 2025.",
-        "en": "Brazilian indigenous peoples are explicitly rejecting the word «gastronomy» because it captures only the finished plate and leaves out the system. They propose «food culture» with five articulated dimensions: family farming, women's labour, agrobiodiversity, forest care, and preference for one's own over the industrial. The FAO began adopting the term as an operational category in 2025."
-      },
-      "url": "https://www.boell.de/en/2026/01/09/amazon-world-food-culture-key-food-security-and-human-rights",
-      "source": "boell.de",
-      "tags": ["amazonía", "alimentación", "soberanía alimentaria", "indígena"]
-    },
-    {
-      "id": "S.07",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Programa escolar de Oriximiná como caso testigo de soberanía amazónica.",
-        "en": "Oriximiná's school programme as a case study of Amazonian sovereignty."
-      },
-      "essay": {
-        "es": "Un estudio publicado en Journal of Peasant Studies documenta cómo el Programa Nacional de Alimentación Escolar de Brasil opera en Oriximiná, Pará, bajo las cinco dimensiones de soberanía alimentaria amazónica. Es caso testigo replicable para políticas similares en países amazónicos vecinos y modelo articulable a programas FAO.",
-        "en": "A study in the Journal of Peasant Studies documents how Brazil's National School Feeding Programme operates in Oriximiná, Pará, under the five dimensions of Amazonian food sovereignty. It is a replicable case study for similar policies in neighbouring Amazonian countries and a model that can be articulated with FAO programmes."
-      },
-      "url": "https://www.tandfonline.com/doi/full/10.1080/03066150.2024.2310149",
-      "source": "tandfonline.com",
-      "tags": ["amazonía", "soberanía alimentaria", "brasil", "política pública"]
-    },
-    {
-      "id": "S.08",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Alimenta Cidades: política federal brasileña de soberanía alimentaria urbana.",
-        "en": "Alimenta Cidades: Brazil's federal urban food sovereignty policy."
-      },
-      "essay": {
-        "es": "Lanzada en 2023, la estrategia busca expandir producción, acceso y consumo de alimentos adecuados y saludables en ciudades brasileñas. Articula municipios con productores agroecológicos en cadena corta. La FAO la documenta explícitamente como modelo replicable para América Latina y catalizadora de alineación de políticas públicas alimentarias.",
-        "en": "Launched in 2023, the strategy seeks to expand the production, access and consumption of adequate and healthy food in Brazilian cities. It connects municipalities with agroecological producers through short supply chains. The FAO explicitly documents it as a model replicable across Latin America and as a catalyst for the alignment of food-related public policies."
-      },
-      "url": "https://www.fao.org/food-systems/news/news-detail/the-alimenta-cidades-(feeding-cities)-strategy-in-brazil--catalysing-policy-alignment-from-the-municipal-level/en",
-      "source": "fao.org",
-      "tags": ["soberanía alimentaria", "brasil", "ciudades", "política pública"]
-    },
-    {
-      "id": "S.09",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "CDMX consolidada editorialmente como capital fashion global emergente.",
-        "en": "CDMX consolidated editorially as an emerging global fashion capital."
-      },
-      "essay": {
-        "es": "Wallpaper documenta cinco diseñadores emergentes presentados en Mexico City Art Week 2026, trabajando con maderas nativas (rosa morada, encino), Otomí y macramé. La consolidación editorial coincide con migración creativa masiva desde Nueva York, Berlín y Buenos Aires hacia colonias específicas de la ciudad. Roma y Condesa son aterrizaje, Juárez es fase dos.",
-        "en": "Wallpaper documents five emerging designers presented at Mexico City Art Week 2026, working with native woods (rosa morada, oak), Otomí and macramé. Editorial consolidation coincides with mass creative migration from New York, Berlin and Buenos Aires into specific neighbourhoods. Roma and Condesa are the landing, Juárez is phase two."
-      },
-      "url": "https://www.wallpaper.com/design-interiors/emerging-mexican-designers-2026",
-      "source": "wallpaper.com",
-      "tags": ["méxico", "diseño", "moda", "migración creativa"]
-    },
-    {
-      "id": "S.10",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Renacer Central: vivienda social vuelve al centro histórico de Bogotá.",
-        "en": "Renacer Central: social housing returns to Bogotá's historic centre."
-      },
-      "essay": {
-        "es": "El proyecto entregará 177 apartamentos VIS y VIP en dos torres de doce pisos, sobre suelo central de alto valor que el mercado privado venía codiciando. Primera operación pública en cuatro décadas que instala vivienda popular simbólicamente en el centro histórico bogotano. La escala es modesta. La señal de retórica institucional es grande.",
-        "en": "The project will deliver 177 social and priority-housing units across two twelve-storey towers on central high-value land long coveted by the private market. It is the first public operation in four decades to symbolically place popular housing in Bogotá's historic centre. The scale is modest. The institutional rhetoric signal is large."
-      },
-      "url": "https://bogota.gov.co/mi-ciudad/habitat/177-familias-accederan-vivienda-social-en-el-centro-de-bogota-2026",
-      "source": "bogota.gov.co",
-      "tags": ["vivienda", "colombia", "ciudad", "política pública"]
-    },
-    {
-      "id": "S.11",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Soacha: vivienda progresiva como técnica replicable de bajo costo.",
-        "en": "Soacha: progressive housing as a replicable low-cost technique."
-      },
-      "essay": {
-        "es": "Un equipo académico desarrolló prototipos habitacionales con estructura fija y servicios concentrados, que se expanden interiormente según capacidad económica de cada hogar. La técnica permite acceso a vivienda popular sin entregar inmueble terminado. Funciona como ingeniería del crecimiento doméstico y es replicable a costo bajo en otras periferias latinoamericanas.",
-        "en": "An academic team has developed housing prototypes with a fixed structure and concentrated services, expandable from the inside according to each household's economic capacity. The technique allows access to popular housing without delivering a finished unit. It functions as the engineering of domestic growth and is replicable at low cost across other Latin American peripheries."
-      },
-      "url": "https://revistadearquitectura.ucatolica.edu.co/article/view/1271",
-      "source": "revistadearquitectura.ucatolica.edu.co",
-      "tags": ["vivienda", "colombia", "arquitectura", "periferia"]
-    },
-    {
-      "id": "S.12",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Funk carioca circula a 150 BPM sin doblaje al inglés.",
-        "en": "Carioca funk circulates at 150 BPM without an English dub."
-      },
-      "essay": {
-        "es": "Los productores carioca controlan catálogo, sample y lengua. El género se exporta a clubs europeos y norteamericanos sin colaboración anglo intermediaria. La generación previa del boom latino dependía de puentes (reggaetón con productor de Atlanta, K-pop con remix anglo). La generación funk fuerza al algoritmo a aceptar portugués brasileño intacto.",
-        "en": "Carioca producers control the catalogue, the sample and the language. The genre exports to European and North American clubs without an Anglo intermediary. The previous Latin boom generation depended on bridges (reggaetón with an Atlanta producer, K-pop with an Anglo remix). The funk generation forces the algorithm to accept Brazilian Portuguese intact."
-      },
-      "url": "https://latinvideoremix.com/baile-funk-dj-trend-2026/",
-      "source": "latinvideoremix.com",
-      "tags": ["música", "brasil", "funk", "exportación cultural"]
-    },
-    {
-      "id": "S.13",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Diseñadores andinos organizan colecciones por pachas, no por temporadas.",
-        "en": "Andean designers organise collections by pachas, not by seasons."
-      },
-      "essay": {
-        "es": "Hanan Pacha (ancestros, montaña), Kay Pacha (presente, cuerpo), Ukhu Pacha (germinación, futurismo indígena). La estructura tripartita reemplaza al binomio occidental tradición/innovación como gramática conceptual. Diez diseñadores peruanos viajaron a Copenhague con este marco como base de colección, presentándolo a editores europeos.",
-        "en": "Hanan Pacha (ancestors, mountain), Kay Pacha (present, body), Ukhu Pacha (germination, indigenous futurism). The tripartite structure replaces the Western tradition/innovation binary as conceptual grammar. Ten Peruvian designers travelled to Copenhagen with this frame as the basis of their collection, presenting it to European editors."
-      },
-      "url": "https://www.voguescandinavia.com/articles/meet-the-10-peruvian-designers-set-to-shine-in-copenhagen-this-month",
-      "source": "voguescandinavia.com",
-      "tags": ["moda", "andino", "perú", "cosmovisión"]
-    },
-    {
-      "id": "S.14",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Juan de la Paz mantiene cadena trazable con 30+ comunidades andinas.",
-        "en": "Juan de la Paz keeps a traceable chain with 30+ Andean communities."
-      },
-      "essay": {
-        "es": "Marca peruano-boliviana que combina técnicas ancestrales y silueta contemporánea. Mantiene cadena de trabajo declarada con más de treinta comunidades artesanas en ambos países. Funciona como caso de estudio sobre cómo escalar moda andina sin colapsar la trazabilidad ni borrar a las tejedoras del crédito.",
-        "en": "A Peruvian-Bolivian brand combining ancestral techniques with contemporary silhouettes. It maintains a declared working chain with over thirty artisan communities across both countries. It functions as a case study on how to scale Andean fashion without collapsing traceability or erasing weavers from the credit."
-      },
-      "url": "https://industry.notjustalabel.com/juan-de-la-paz",
-      "source": "notjustalabel.com",
-      "tags": ["moda", "andino", "perú", "bolivia", "trazabilidad"]
-    },
-    {
-      "id": "S.15",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Tropiférica de Ankla+Bigote entra al MUSAC: la cumbia digital llega al museo.",
-        "en": "Tropiférica by Ankla+Bigote enters the MUSAC: cumbia digital reaches the museum."
-      },
-      "essay": {
-        "es": "DJs especializados en cumbia digital programan ciclo en el Museo de Arte Contemporáneo de Castilla y León. Marca el ingreso institucional europeo del género nacido en galpones porteños de 2008. Para algunos es consagración merecida. Para el observatorio es señal de cierre de ciclo: cuando un género popular entra al museo suele haber perdido pulso de calle.",
-        "en": "DJs specialised in cumbia digital programme a cycle at the Museum of Contemporary Art of Castilla y León. It marks the European institutional entry of a genre born in Buenos Aires warehouses in 2008. For some it is deserved consecration. For the observatory it is a sign of cycle-closure: when a popular genre enters the museum, it has usually lost its street pulse."
-      },
-      "url": "https://tamtampress.es/2017/07/26/la-cumbia-digital-de-los-djs-ankla-y-bigote-llega-al-musac/",
-      "source": "tamtampress.es",
-      "tags": ["cumbia digital", "argentina", "españa", "musac", "institucionalización"]
-    },
-    {
-      "id": "S.16",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Guardianes por la Vida: red infantil climática con escala regional.",
-        "en": "Guardianes por la Vida: a child-led climate network at regional scale."
-      },
-      "essay": {
-        "es": "Movimiento fundado por un joven colombiano que articula a más de 700 niñas y niños, mayoritariamente latinoamericanos, en defensa ambiental y mitigación climática. Es caso poco frecuente de organización juvenil climática con alcance regional declarado (no nacional ni urbano local).",
-        "en": "A movement founded by a young Colombian that articulates more than 700 children, mostly Latin American, around environmental defence and climate mitigation. It is a rare case of a youth climate organisation with declared regional reach, not national or urban-local."
-      },
-      "url": "https://www.unicef.org/lac/la-juventud-por-el-clima",
-      "source": "unicef.org",
-      "tags": ["clima", "juventud", "colombia", "latam"]
-    },
-    {
-      "id": "S.17",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Engaja Jovem: 150 jóvenes brasileños cruzan clase y territorio en agenda climática.",
-        "en": "Engaja Jovem: 150 young Brazilians cross class and territory on a climate agenda."
-      },
-      "essay": {
-        "es": "Plataforma que articula juventudes indígenas, rurales, de favela y urbanas en una agenda común contra la deforestación amazónica. La novedad organizativa es la coordinación intra-clase y intra-territorial. Pocos movimientos climáticos juveniles logran mantener esa diversidad sin fracturarse en agendas paralelas.",
-        "en": "A platform that articulates indigenous, rural, favela and urban youth around a common agenda against Amazonian deforestation. The organisational novelty is the intra-class and intra-territorial coordination. Few youth climate movements manage to hold such diversity without fracturing into parallel agendas."
-      },
-      "url": "https://www.unicef.org/ecuador/adolescentes-y-j%C3%B3venes-contra-el-cambio-clim%C3%A1tico",
-      "source": "unicef.org",
-      "tags": ["clima", "juventud", "brasil", "amazonía"]
-    },
-    {
-      "id": "S.18",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Cyberpunk latinoamericano: una tradición literaria que insiste en el cuerpo.",
-        "en": "Latin American cyberpunk: a literary tradition that insists on the body."
-      },
-      "essay": {
-        "es": "Marcelo Novoa documentó hace años una constante de la ciencia ficción regional: a diferencia del cyberpunk anglo que sueña con consciencias digitales, la versión latinoamericana piensa el futuro desde cuerpos modificados, marcas, prótesis baratas y neoliberalismo escrito en la piel. La tradición está reapareciendo con fuerza en arte visual producido con IA generativa.",
-        "en": "Years ago Marcelo Novoa documented a constant of regional science fiction: unlike Anglo cyberpunk, which dreams of digital consciousness, the Latin American version thinks the future from modified bodies, marks, cheap prosthetics and neoliberalism written on the skin. The tradition is re-emerging strongly in visual art produced with generative AI."
-      },
-      "url": "https://latinamericanliteraturetoday.org/2018/02/leaving-behind-realitys-ruins-following-digital-tracks-latin-american-cyberpunk/",
-      "source": "latinamericanliteraturetoday.org",
-      "tags": ["ciencia ficción", "cuerpo", "literatura", "ia"]
-    },
-    {
-      "id": "S.19",
-      "type": "bite",
-      "date": "2026-05-13",
-      "title": {
-        "es": "Fermentación instalada como infraestructura económica doméstica.",
-        "en": "Fermentation installed as domestic economic infrastructure."
-      },
-      "essay": {
-        "es": "Fine Dining Lovers documenta que en 2026 la fermentación se integra al hogar latinoamericano: kombuchas, misos, masas madre, chichas, tepaches. Lo importante no es el frasco premium del barrio gentrificado sino el uso doméstico antiinflacionario de la técnica. Cocinar con tiempo, en condiciones de inflación, cuesta menos que comprar bebida industrial.",
-        "en": "Fine Dining Lovers reports that in 2026 fermentation enters the Latin American home: kombuchas, misos, sourdoughs, chichas, tepaches. What matters is not the premium jar in the gentrified neighbourhood but the domestic anti-inflation use of the technique. Cooking with time, under inflationary conditions, costs less than buying industrial drinks."
-      },
-      "url": "https://www.finedininglovers.lat/explorar/noticias/tendencias-gastronomicas-2026-en-latinoamerica",
-      "source": "finedininglovers.lat",
-      "tags": ["fermentación", "alimentación", "doméstico", "antiinflacionario"]
-    },
-    {
-      "id": "001",
+      "id": "S.00",
       "type": "bite",
       "date": "2026-05-13",
       "thumbnail": "https://www.naun.xyz/images/paisajes.jpg",
@@ -429,6 +33,496 @@
       "url": "https://www.naun.xyz/projects/paisajes",
       "source": "naun.xyz",
       "tags": ["paisaje sonoro", "selva", "clima", "arte sonoro", "cartografía"]
+    },
+    {
+      "id": "M.01",
+      "type": "microensayo",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.madera21.cl/wp-content/uploads/2025/10/FOTO-1-Hifas-Imagenes-de-kitz-travellers.jpg",
+      "thumbnail_alt": {
+        "es": "Detalle de hifas: red ramificada del micelio.",
+        "en": "Hyphae detail: the branching network of mycelium."
+      },
+      "title": {
+        "es": "Soberanía residual: el sur fabrica con lo que el norte no sabe usar.",
+        "en": "Residual sovereignty: the South builds with what the North doesn't know how to use."
+      },
+      "essay": {
+        "es": "Cinco operaciones latinoamericanas convergen sin haberse coordinado. Mycocrea fabrica empaques con yerba mate vencida. CENAMAD produce paneles con residuos forestales. El Bajío mexicano desarrolla biotabique sobre paja de cultivos. Habitar el Micelio repiensa la jerarquía interespecies desde Bogotá. Funginnova institucionaliza la red fúngica mexicana. En paralelo, los pueblos amazónicos exportan «cultura alimentaria» a la FAO como categoría que entiende al bosque como sistema vivo, y la fermentación doméstica se instala como tecnología antiinflacionaria silenciosa. La operación material es precisa: el residuo deja de leerse como descarte y se incorpora al circuito productivo, el tiempo se vuelve ingrediente activo.\n\nImporta porque produce un vocabulario que el centro no puede importar sin transformarse antes. La startup europea habla de «circularidad» desde la abundancia. El laboratorio latinoamericano habla de soberanía residual desde la memoria de la escasez. Esa diferencia ofrece a la región una posición de saber inusual: ser laboratorio de modelos económicos que requieren memoria de carencia para funcionar. Si las redes fúngicas y las cocinas amazónicas escalan sin disolverse en estética de feria, la región puede ofrecer un modelo de producción que no necesita primero acumular y luego repartir. Eso es world-making en sentido fuerte. Está produciendo lengua, no solo objeto. La pregunta abierta es si el vocabulario se nombra antes de que el lujo lo capture y lo devuelva como producto premium con sticker de «ancestral wisdom».",
+        "en": "Five Latin American operations converge without coordinating. Mycocrea makes packaging from expired yerba mate. CENAMAD produces panels from forestry residues. Mexico's Bajío develops mycelium bricks on crop straw. Habitar el Micelio rethinks interspecies hierarchy from Bogotá. Funginnova institutionalises Mexico's fungal network. In parallel, Amazonian peoples export «food culture» to the FAO as a category that reads the forest as a living system, and home fermentation installs itself as a quiet anti-inflation technology. The material operation is precise: residue stops being read as waste and enters the productive circuit, time becomes an active ingredient.\n\nIt matters because it produces a vocabulary the centre can't import without first transforming itself. The European start-up talks about «circularity» from abundance. The Latin American laboratory talks about residual sovereignty from the memory of scarcity. That difference gives the region an unusual epistemic position: a laboratory for economic models that require a memory of lack to function. If fungal networks and Amazonian kitchens scale without dissolving into fair-aesthetic, the region can offer a model of production that doesn't first accumulate and then redistribute. That is world-making in the strong sense. It is producing language, not only objects. The open question is whether the vocabulary gets named before luxury captures it and sells it back as a premium product with an «ancestral wisdom» sticker."
+      },
+      "sources": [
+        { "name": "S.01 · Cambian el Mundo (Mycocrea)", "url": "https://www.cambianelmundo.com/utiliza-residuos-de-hongos-para-crear-packaging-sustentable-que-reemplaza-el-telgopor/" },
+        { "name": "S.02 · SciELO México (biotabique)", "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2594-19252024000300102" },
+        { "name": "S.03 · Zona Docs (Funginnova)", "url": "https://www.zonadocs.mx/2026/04/21/es-tiempo-de-hongos-cultivando-el-futuro-de-la-micologia/" },
+        { "name": "S.04 · Idartes (Habitar el Micelio)", "url": "https://www.idartes.gov.co/es/articulos/materialidades-conjuntas-otros-mundos-posibles-al-habitar-con-el-micelio" },
+        { "name": "S.05 · Madera21 (CENAMAD UC)", "url": "https://www.madera21.cl/micelio-e-innovacion-hongos-que-convierten-residuos-forestales-en-biomateriales-sostenibles-para-la-construccion/" },
+        { "name": "S.06 · Heinrich Böll (cultura alimentaria)", "url": "https://www.boell.de/en/2026/01/09/amazon-world-food-culture-key-food-security-and-human-rights" },
+        { "name": "S.07 · Taylor & Francis (Oriximiná)", "url": "https://www.tandfonline.com/doi/full/10.1080/03066150.2024.2310149" },
+        { "name": "S.19 · Fine Dining Lovers (fermentación)", "url": "https://www.finedininglovers.lat/explorar/noticias/tendencias-gastronomicas-2026-en-latinoamerica" }
+      ],
+      "tags": ["biomateriales", "micelio", "soberanía", "amazonía", "fermentación"]
+    },
+    {
+      "id": "M.02",
+      "type": "microensayo",
+      "date": "2026-05-13",
+      "thumbnail": "https://static.voguescandinavia.com/DSC_0732_8115bd9275/DSC_0732_8115bd9275.jpg",
+      "thumbnail_alt": {
+        "es": "Diseñadores andinos en Copenhague.",
+        "en": "Andean designers in Copenhagen."
+      },
+      "title": {
+        "es": "La cosmovisión como sistema operativo, no como decoración.",
+        "en": "Cosmovision as operating system, not decoration."
+      },
+      "essay": {
+        "es": "Hay un patrón silencioso que conecta tres frentes. Los diseñadores andinos organizan colecciones por pachas (Hanan, Kay, Ukhu) y llevan ese marco a Copenhague Fashion Week como gramática conceptual de venta. Los pueblos amazónicos exportan «cultura alimentaria» a la FAO con cinco dimensiones articuladas que entran a protocolos multilaterales. Bolivia y Ecuador formalizaron derechos constitucionales para la Pachamama y la Naturaleza, hoy referencia jurídica en debates ambientales globales. La cosmovisión dejó de funcionar como objeto antropológico y aparece ahora como software conceptual. Estructura para diseñar colección, categoría para diseñar política pública, sujeto para diseñar derecho. La operación es semántica antes que estética.\n\nLo decisivo es que la cosmovisión formalizada se transfiere sin perder densidad porque está estructurada como sistema. Una constitución inspira otra constitución. Una categoría FAO viaja por sus protocolos. Una estructura tripartita de pachas puede inspirar arquitectura de software o currículum educativo. La región está produciendo gramática para imaginar al planeta como entramado de sujetos y no como recurso. Esa gramática es exportable de un modo que la estética latinoamericana nunca fue. La pregunta abierta es cuánta densidad sobrevive al viaje. Hanan Pacha leído por curaduría escandinava se vuelve concepto vacío. Pachamama leída por marketing verde europeo se vuelve etiqueta. Defender la integridad conceptual durante la exportación es la próxima pelea cultural seria. Y es una pelea donde Latinoamérica tiene, por primera vez en mucho tiempo, posición de hablante original.",
+        "en": "A quiet pattern connects three fronts. Andean designers organise collections by pachas (Hanan, Kay, Ukhu) and bring that frame to Copenhagen Fashion Week as a conceptual grammar of sale. Amazonian peoples export «food culture» to the FAO with five articulated dimensions that enter multilateral protocols. Bolivia and Ecuador formalised constitutional rights for Pachamama and Nature, now a legal reference in global environmental debates. Cosmovision has stopped functioning as an anthropological object and now appears as conceptual software. A structure for designing a collection, a category for designing public policy, a subject for designing rights. The operation is semantic before it is aesthetic.\n\nThe decisive thing is that formalised cosmovision transfers without losing density because it is structured as a system. One constitution inspires another. An FAO category travels through its protocols. A tripartite pachas structure can inspire software architecture or educational curriculum. The region is producing grammar to imagine the planet as a web of subjects rather than a resource. That grammar is exportable in a way Latin American aesthetics never were. The open question is how much density survives the trip. Hanan Pacha read by Scandinavian curators becomes an empty concept. Pachamama read by European green marketing becomes a label. Defending conceptual integrity during export is the next serious cultural fight. And it's a fight where Latin America has, for the first time in a long while, the position of an original speaker."
+      },
+      "sources": [
+        { "name": "S.06 · Heinrich Böll (cultura alimentaria)", "url": "https://www.boell.de/en/2026/01/09/amazon-world-food-culture-key-food-security-and-human-rights" },
+        { "name": "S.07 · Taylor & Francis (Oriximiná)", "url": "https://www.tandfonline.com/doi/full/10.1080/03066150.2024.2310149" },
+        { "name": "S.08 · FAO (Alimenta Cidades)", "url": "https://www.fao.org/food-systems/news/news-detail/the-alimenta-cidades-(feeding-cities)-strategy-in-brazil--catalysing-policy-alignment-from-the-municipal-level/en" },
+        { "name": "S.13 · Vogue Scandinavia (pachas)", "url": "https://www.voguescandinavia.com/articles/meet-the-10-peruvian-designers-set-to-shine-in-copenhagen-this-month" },
+        { "name": "S.14 · Not Just A Label (Juan de la Paz)", "url": "https://industry.notjustalabel.com/juan-de-la-paz" },
+        { "name": "S.16 · UNICEF (Guardianes por la Vida)", "url": "https://www.unicef.org/lac/la-juventud-por-el-clima" },
+        { "name": "S.17 · UNICEF Ecuador (Engaja Jovem)", "url": "https://www.unicef.org/ecuador/adolescentes-y-j%C3%B3venes-contra-el-cambio-clim%C3%A1tico" }
+      ],
+      "tags": ["cosmovisión", "andino", "amazónico", "política pública", "moda"]
+    },
+    {
+      "id": "M.03",
+      "type": "microensayo",
+      "date": "2026-05-13",
+      "thumbnail": "https://i0.wp.com/tamtampress.es/wp-content/uploads/2017/07/4_ankla.jpg?fit=640%2C427&ssl=1",
+      "thumbnail_alt": {
+        "es": "DJ Ankla en el ciclo Tropiférica en el MUSAC.",
+        "en": "DJ Ankla in the Tropiférica cycle at MUSAC."
+      },
+      "title": {
+        "es": "Exportar sin traductor: la lengua propia como capital.",
+        "en": "Exporting without a translator: native tongue as capital."
+      },
+      "essay": {
+        "es": "Tres frentes muestran lo mismo desde lados distintos del mapa. El funk carioca circula a 150 BPM por clubs europeos sin pedir traducción al inglés. La cumbia digital argentina entra al MUSAC sosteniendo castellano regional y referencias barriales. Los diseñadores mexicanos exportan moda al circuito global manteniendo Otomí, macramé y nombres en lenguas originarias en las etiquetas que llegan a Wallpaper. La generación previa del boom latino requería puentes intermediarios. Ahora la operación es otra. Los creadores latinos están forzando al algoritmo a aprender el acento, en lugar de aceptar doblar el contenido. Spotify ajusta sus recomendaciones. TikTok acepta hashtags regionales. Los editores europeos publican etiquetas en lenguas indígenas sin glosario adjunto.\n\nLa implicación es estructural antes que estética. Por primera vez en décadas, el pop global está siendo obligado a escuchar antes de exigir doblaje. Sería ingenuo leerlo como triunfo limpio. Hay riesgos serios: el filtro algorítmico al funk pesado por su lírica, la fijación museística de la cumbia digital, la gentrificación creativa que expulsa a los productores que la moda celebra. Pero el cambio gramatical ya ocurrió. La pregunta pasa de «¿puede exportar?» a «¿qué construye con su posición de hablante?». Esa posición es world-making porque permite producir formatos culturales que el mercado global aprende a recibir sin reescribir. Soberanía lingüística aplicada a la industria, conquistada pieza por pieza durante dos décadas, ahora transferible a cualquier otra industria creativa regional con voluntad política de no doblarse.",
+        "en": "Three fronts show the same thing from different sides of the map. Carioca funk circulates at 150 BPM through European clubs without asking for English translation. Argentine cumbia digital enters the MUSAC holding on to regional Spanish and neighbourhood references. Mexican designers export fashion to the global circuit keeping Otomí, macramé and names in indigenous languages on the labels that reach Wallpaper. The previous Latin boom generation needed intermediary bridges. Now the operation is different. Latin creators are forcing the algorithm to learn the accent rather than accepting to dub the content. Spotify adjusts its recommendations. TikTok accepts regional hashtags. European editors publish labels in indigenous languages with no glossary attached.\n\nThe implication is structural before it is aesthetic. For the first time in decades, global pop is being forced to listen before demanding a dub. It would be naive to read this as a clean win. The risks are serious: algorithmic filtering of heavy funk for its lyrics, the museum fixation of cumbia digital, the creative gentrification that expels the very producers fashion celebrates. But the grammatical change has already happened. The question moves from «can it export?» to «what does it build with its position as a speaker?». That position is world-making because it allows production of cultural formats that the global market learns to receive without rewriting. Linguistic sovereignty applied to industry, won piece by piece over two decades, now transferable to any other regional creative industry willing to refuse the dub."
+      },
+      "sources": [
+        { "name": "S.09 · Wallpaper (CDMX designers)", "url": "https://www.wallpaper.com/design-interiors/emerging-mexican-designers-2026" },
+        { "name": "S.12 · Latin Video Remix (funk carioca)", "url": "https://latinvideoremix.com/baile-funk-dj-trend-2026/" },
+        { "name": "S.13 · Vogue Scandinavia (pachas)", "url": "https://www.voguescandinavia.com/articles/meet-the-10-peruvian-designers-set-to-shine-in-copenhagen-this-month" },
+        { "name": "S.14 · Not Just A Label (Juan de la Paz)", "url": "https://industry.notjustalabel.com/juan-de-la-paz" },
+        { "name": "S.15 · TamTam Press (Tropiférica MUSAC)", "url": "https://tamtampress.es/2017/07/26/la-cumbia-digital-de-los-djs-ankla-y-bigote-llega-al-musac/" }
+      ],
+      "tags": ["lengua", "soberanía cultural", "música", "moda"]
+    },
+    {
+      "id": "M.04",
+      "type": "microensayo",
+      "date": "2026-05-13",
+      "thumbnail": "https://latinamericanliteraturetoday.org/wp-content/uploads/2018/01/jcgellidon341850.jpg",
+      "thumbnail_alt": {
+        "es": "Cyberpunk latinoamericano: una tradición que insiste en el cuerpo.",
+        "en": "Latin American cyberpunk: a tradition that insists on the body."
+      },
+      "title": {
+        "es": "El cuerpo y el suelo: una alternativa al horizonte transhumanista.",
+        "en": "The body and the ground: an alternative to the transhumanist horizon."
+      },
+      "essay": {
+        "es": "Mientras el transhumanismo californiano sueña con subir la consciencia a la nube, varios frentes latinoamericanos hacen lo opuesto con consistencia. La ciencia ficción regional insiste en cuerpos modificados (prótesis, marcas, cicatrices), no en consciencias digitales. La arquitectura social devuelve vivienda popular al centro de las ciudades en lugar de aceptar su expulsión periférica. Los laboratorios de biomateriales fabrican con hongos y residuos físicos. Los movimientos climáticos juveniles defienden territorios con nombre propio en lugar de causas abstractas. La operación común es de anclaje radical: pensar el futuro desde la materia, desde el lugar, desde el cuerpo que carga la marca del poder y desde el suelo que decide qué crece.\n\nEsto construye una alternativa filosófica seria al horizonte transhumanista que domina el imaginario tecnológico global. La hipótesis es que el futuro latinoamericano ofrecerá un modelo poscapitalista que no requiere escapar para imaginarse próspero, que no necesita salir del cuerpo ni del territorio ni de la comunidad. Eso es ofensa filosófica directa a buena parte de Silicon Valley y Davos, donde el futuro deseable suele implicar desencarnación, desterritorialización o ambas. Si la región logra articular este modelo con vocabulario propio antes de que la curaduría del Norte lo capture como «low-tech romanticism» o «decolonial chic», pone sobre la mesa global una opción real que el imaginario dominante todavía no ha sabido nombrar. Mantener el cuerpo y el suelo en el centro de la imaginación de futuro es, ahora, gesto político de primera línea.",
+        "en": "While Californian transhumanism dreams of uploading consciousness to the cloud, several Latin American fronts do the opposite consistently. The region's science fiction insists on modified bodies (prosthetics, marks, scars), not digital consciousness. Social architecture returns popular housing to the centre of cities rather than accepting its expulsion to the periphery. Biomaterial labs make with fungi and physical residues. Youth climate movements defend territories with proper names rather than abstract causes. The common operation is one of radical anchoring: thinking the future from matter, from place, from the body that carries the mark of power, from the ground that decides what grows.\n\nThis builds a serious philosophical alternative to the transhumanist horizon that dominates the global technological imaginary. The hypothesis is that the Latin American future will offer a post-capitalist model that doesn't require escape in order to imagine itself prosperous, that doesn't need to leave the body, the territory or the community. That is a direct philosophical offence to much of Silicon Valley and Davos, where the desirable future tends to imply disembodiment, deterritorialisation or both. If the region manages to articulate this model with its own vocabulary before Northern curation captures it as «low-tech romanticism» or «decolonial chic», it puts on the global table a real option the dominant imaginary has not yet known how to name. Keeping the body and the ground at the centre of the imagination of the future is, now, a front-line political gesture."
+      },
+      "sources": [
+        { "name": "S.01 · Cambian el Mundo (Mycocrea)", "url": "https://www.cambianelmundo.com/utiliza-residuos-de-hongos-para-crear-packaging-sustentable-que-reemplaza-el-telgopor/" },
+        { "name": "S.05 · Madera21 (CENAMAD UC)", "url": "https://www.madera21.cl/micelio-e-innovacion-hongos-que-convierten-residuos-forestales-en-biomateriales-sostenibles-para-la-construccion/" },
+        { "name": "S.10 · Bogotá.gov.co (Renacer Central)", "url": "https://bogota.gov.co/mi-ciudad/habitat/177-familias-accederan-vivienda-social-en-el-centro-de-bogota-2026" },
+        { "name": "S.11 · UCatólica (Soacha)", "url": "https://revistadearquitectura.ucatolica.edu.co/article/view/1271" },
+        { "name": "S.16 · UNICEF (Guardianes por la Vida)", "url": "https://www.unicef.org/lac/la-juventud-por-el-clima" },
+        { "name": "S.17 · UNICEF Ecuador (Engaja Jovem)", "url": "https://www.unicef.org/ecuador/adolescentes-y-j%C3%B3venes-contra-el-cambio-clim%C3%A1tico" },
+        { "name": "S.18 · Latin American Literature Today (cyberpunk)", "url": "https://latinamericanliteraturetoday.org/2018/02/leaving-behind-realitys-ruins-following-digital-tracks-latin-american-cyberpunk/" }
+      ],
+      "tags": ["transhumanismo", "cuerpo", "territorio", "filosofía"]
+    },
+    {
+      "id": "S.01",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "fungipor.jpeg",
+      "thumbnail_alt": {
+        "es": "Mycocrea: muestras de biomateriales fúngicos junto a alternativas convencionales.",
+        "en": "Mycocrea: fungal biomaterial samples next to conventional alternatives."
+      },
+      "title": {
+        "es": "Mycocrea cumple ocho años fabricando con micelio en Buenos Aires.",
+        "en": "Mycocrea turns eight making with mycelium in Buenos Aires."
+      },
+      "essay": {
+        "es": "Desde 2017, este laboratorio porteño produce empaques y objetos de diseño con una mezcla de micelio, kombucha y bioplásticos hechos de yerba mate. Ocho años de operación lo convierten en la unidad de biomateriales fúngicos más madura del Cono Sur. La operación específica: usa residuos del agro rioplatense (yerba mate vencida, bagazo) como alimento del hongo, fabricando lo que conviene nombrar como soberanía residual antes que economía circular.",
+        "en": "Since 2017 this Buenos Aires lab has produced packaging and design objects from a mix of mycelium, kombucha and bioplastics made from yerba mate. Eight years of operation make it the most mature fungal biomaterials unit in the Southern Cone. The specific operation: it feeds the fungus with residues from the local agro-economy (expired yerba mate, sugarcane bagasse), making what is better called residual sovereignty than circular economy."
+      },
+      "url": "https://www.cambianelmundo.com/utiliza-residuos-de-hongos-para-crear-packaging-sustentable-que-reemplaza-el-telgopor/",
+      "source": "cambianelmundo.com",
+      "tags": ["biomateriales", "micelio", "argentina", "residuos"]
+    },
+    {
+      "id": "S.02",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.scielo.org.mx/img/revistas/recit/v7n3//2594-1925-recit-7-03-e346-gf7.jpg",
+      "thumbnail_alt": {
+        "es": "Prototipo de biotabique con micelio.",
+        "en": "Mycelium biobrick prototype."
+      },
+      "title": {
+        "es": "Biotabique mexicano: micelio aplicado a vivienda económica.",
+        "en": "Mexican biotabique: mycelium applied to low-cost housing."
+      },
+      "essay": {
+        "es": "En la región Bajío, investigadores desarrollan ladrillos de construcción a partir de micelio crecido sobre paja de cultivos agrícolas. El prototipo tiene propiedades térmicas y mecánicas competitivas con materiales convencionales. Si escala a vivienda social, sería el primer caso latinoamericano documentado de biomaterial fúngico aplicado a construcción residencial real.",
+        "en": "In Mexico's Bajío region, researchers are developing construction bricks from mycelium grown on crop straw. The prototype has thermal and mechanical properties competitive with conventional materials. If it scales into social housing, it would be the first documented Latin American case of fungal biomaterial used in real residential construction."
+      },
+      "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2594-19252024000300102",
+      "source": "scielo.org.mx",
+      "tags": ["biomateriales", "micelio", "vivienda", "méxico"]
+    },
+    {
+      "id": "S.03",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.zonadocs.mx/wp-content/uploads/2026/04/Portada_Primer-Encuentro-Hongos-scaled.jpg",
+      "thumbnail_alt": {
+        "es": "Funginnova 2026: encuentro nacional de innovación fúngica.",
+        "en": "Funginnova 2026: national fungal innovation meeting."
+      },
+      "title": {
+        "es": "Funginnova 2026: la red mexicana fúngica entra a política pública.",
+        "en": "Funginnova 2026: Mexico's fungal network enters public policy."
+      },
+      "essay": {
+        "es": "CIATEJ, CIAD e INIFAP, tres centros públicos de investigación mexicanos, convocaron el Primer Encuentro Nacional de Innovación y Desarrollo de Productos Fúngicos. La biotecnología fúngica deja de ser proyecto académico aislado y entra al circuito formal de política pública. Es el primer registro de coordinación interinstitucional pública en el rubro.",
+        "en": "CIATEJ, CIAD and INIFAP, three public Mexican research centres, convened the first National Meeting on Fungal Innovation and Product Development. Fungal biotechnology stops being an isolated academic project and enters the formal public policy circuit. It is the first recorded case of inter-institutional public coordination in this field."
+      },
+      "url": "https://www.zonadocs.mx/2026/04/21/es-tiempo-de-hongos-cultivando-el-futuro-de-la-micologia/",
+      "source": "zonadocs.mx",
+      "tags": ["micología", "política pública", "méxico"]
+    },
+    {
+      "id": "S.04",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.idartes.gov.co/sites/default/files/inline-images/Portada-hongo-1.1_0.PNG",
+      "thumbnail_alt": {
+        "es": "Casa de micelio de orellana (Pleurotus ostreatus) con primordios emergiendo. Habitar el Micelio, 2022.",
+        "en": "Oyster mushroom mycelium house (Pleurotus ostreatus) with primordia emerging. Habitar el Micelio, 2022."
+      },
+      "title": {
+        "es": "Habitar el Micelio: colectivo interdisciplinar bogotano.",
+        "en": "Habitar el Micelio: an interdisciplinary Bogotá collective."
+      },
+      "essay": {
+        "es": "Una artista visual (Isabela Izquierdo), una bióloga ecóloga (Natalia Cossio) y un arquitecto (Carlos Acosta) cuestionan la jerarquía antropocéntrica desde un laboratorio compartido en Bogotá. La señal no es técnica sino epistemológica: el biomaterial funciona aquí como excusa para repensar la relación humano-ecosistema.",
+        "en": "A visual artist, an ecologist and an architect question anthropocentric hierarchy from a shared lab in Bogotá. The signal is epistemological rather than technical: biomaterial works here as a pretext for rethinking the human-ecosystem relationship."
+      },
+      "url": "https://www.idartes.gov.co/es/articulos/materialidades-conjuntas-otros-mundos-posibles-al-habitar-con-el-micelio",
+      "source": "idartes.gov.co",
+      "tags": ["micelio", "colombia", "arte"]
+    },
+    {
+      "id": "S.05",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.madera21.cl/wp-content/uploads/2025/10/Portada-Micelio-e-innovacion.jpg",
+      "thumbnail_alt": {
+        "es": "Hifas y micelio sobre residuos forestales — CENAMAD UC.",
+        "en": "Hyphae and mycelium on forestry residues — CENAMAD UC."
+      },
+      "title": {
+        "es": "CENAMAD UC produce paneles de construcción con micelio sobre madera.",
+        "en": "CENAMAD UC builds construction panels with mycelium on wood waste."
+      },
+      "essay": {
+        "es": "El Centro Nacional de Excelencia para la Industria de la Madera de la UC de Chile cultiva micelio sobre residuos forestales locales. Produce paneles con propiedades térmicas, mecánicas y acústicas competitivas. Es uno de los pocos centros académicos latinoamericanos dedicado al cruce entre micología aplicada e industria de la construcción.",
+        "en": "Chile's National Centre for Excellence in the Wood Industry (UC) grows mycelium on local forestry residues. It produces panels with competitive thermal, mechanical and acoustic properties. One of the few Latin American academic centres specifically dedicated to the intersection of applied mycology and construction."
+      },
+      "url": "https://www.madera21.cl/micelio-e-innovacion-hongos-que-convierten-residuos-forestales-en-biomateriales-sostenibles-para-la-construccion/",
+      "source": "madera21.cl",
+      "tags": ["biomateriales", "micelio", "chile"]
+    },
+    {
+      "id": "S.06",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.boell.de/sites/default/files/styles/social_media/public/2025-06/atlas-da-amazonia-brasileira-thumb-2.jpg.jpeg?h=662c5d64&itok=lyaSmzTq",
+      "thumbnail_alt": {
+        "es": "Atlas da Amazônia Brasileira — Heinrich Böll.",
+        "en": "Brazilian Amazon Atlas — Heinrich Böll."
+      },
+      "title": {
+        "es": "Cultura alimentaria desplaza a «gastronomía» en el Amazonas.",
+        "en": "Food culture displaces «gastronomy» in the Amazon."
+      },
+      "essay": {
+        "es": "Pueblos indígenas brasileños rechazan la palabra «gastronomía» porque captura solo el plato terminado. Proponen «cultura alimentaria» con cinco dimensiones articuladas: agricultura familiar, trabajo femenino, agrobiodiversidad, cuidado del bosque y preferencia por lo propio. La FAO empezó a adoptar el término como categoría operativa en 2025.",
+        "en": "Brazilian indigenous peoples reject «gastronomy» because it captures only the finished plate. They propose «food culture» with five articulated dimensions: family farming, women's labour, agrobiodiversity, forest care, and preference for one's own. The FAO began adopting the term as an operational category in 2025."
+      },
+      "url": "https://www.boell.de/en/2026/01/09/amazon-world-food-culture-key-food-security-and-human-rights",
+      "source": "boell.de",
+      "tags": ["amazonía", "alimentación", "soberanía", "indígena"]
+    },
+    {
+      "id": "S.07",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "oriximina.jpeg",
+      "thumbnail_alt": {
+        "es": "Oriximiná, Pará: programa escolar de alimentación bajo soberanía amazónica.",
+        "en": "Oriximiná, Pará: school feeding programme under Amazonian sovereignty."
+      },
+      "title": {
+        "es": "Programa escolar de Oriximiná como caso testigo de soberanía amazónica.",
+        "en": "Oriximiná's school programme as a case study of Amazonian sovereignty."
+      },
+      "essay": {
+        "es": "Un estudio en Journal of Peasant Studies documenta cómo el Programa Nacional de Alimentación Escolar de Brasil opera en Oriximiná, Pará, bajo las cinco dimensiones de soberanía alimentaria amazónica. Es caso testigo replicable para políticas similares en países amazónicos vecinos.",
+        "en": "A study in the Journal of Peasant Studies documents how Brazil's National School Feeding Programme operates in Oriximiná, Pará, under the five dimensions of Amazonian food sovereignty. A replicable case for similar policies in neighbouring Amazonian countries."
+      },
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03066150.2024.2310149",
+      "source": "tandfonline.com",
+      "tags": ["amazonía", "soberanía alimentaria", "brasil"]
+    },
+    {
+      "id": "S.08",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "sol-naciente.jpg",
+      "thumbnail_alt": {
+        "es": "Cocina solidaria Sol Nascente: política Alimenta Cidades en práctica.",
+        "en": "Sol Nascente solidarity kitchen: the Alimenta Cidades policy in practice."
+      },
+      "title": {
+        "es": "Alimenta Cidades: política federal brasileña de soberanía alimentaria urbana.",
+        "en": "Alimenta Cidades: Brazil's federal urban food sovereignty policy."
+      },
+      "essay": {
+        "es": "Lanzada en 2023, la estrategia expande producción, acceso y consumo de alimentos adecuados en ciudades brasileñas. Articula municipios con productores agroecológicos en cadena corta. La FAO la documenta como modelo replicable para América Latina y catalizadora de alineación de políticas públicas alimentarias.",
+        "en": "Launched in 2023, the strategy expands the production, access and consumption of adequate food in Brazilian cities. It connects municipalities with agroecological producers through short chains. The FAO documents it as a model replicable across Latin America."
+      },
+      "url": "https://www.fao.org/food-systems/news/news-detail/the-alimenta-cidades-(feeding-cities)-strategy-in-brazil--catalysing-policy-alignment-from-the-municipal-level/en",
+      "source": "fao.org",
+      "tags": ["soberanía alimentaria", "brasil", "ciudades"]
+    },
+    {
+      "id": "S.09",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/YFR2o8MNcMhZBi4oRWmi8C-1920-80.png",
+      "thumbnail_alt": {
+        "es": "Diseñadores mexicanos emergentes en Mexico City Art Week 2026.",
+        "en": "Emerging Mexican designers at Mexico City Art Week 2026."
+      },
+      "title": {
+        "es": "CDMX consolidada editorialmente como capital fashion global emergente.",
+        "en": "CDMX consolidated editorially as an emerging global fashion capital."
+      },
+      "essay": {
+        "es": "Wallpaper documenta cinco diseñadores emergentes presentados en Mexico City Art Week 2026, trabajando con maderas nativas, Otomí y macramé. La consolidación editorial coincide con migración creativa masiva desde Nueva York, Berlín y Buenos Aires hacia colonias específicas de la ciudad. Roma y Condesa son aterrizaje, Juárez es fase dos.",
+        "en": "Wallpaper documents five emerging designers presented at Mexico City Art Week 2026, working with native woods, Otomí and macramé. Editorial consolidation coincides with mass creative migration from New York, Berlin and Buenos Aires. Roma and Condesa are the landing, Juárez is phase two."
+      },
+      "url": "https://www.wallpaper.com/design-interiors/emerging-mexican-designers-2026",
+      "source": "wallpaper.com",
+      "tags": ["méxico", "diseño", "moda"]
+    },
+    {
+      "id": "S.10",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://bogota.gov.co/sites/default/files/styles/1050px/public/2026-04/177-familias-accederan-a-vivienda-social-en-el-centro-de-bogota.jpg",
+      "thumbnail_alt": {
+        "es": "Proyecto Renacer Central, vivienda social en el centro de Bogotá.",
+        "en": "Renacer Central project, social housing in central Bogotá."
+      },
+      "title": {
+        "es": "Renacer Central: vivienda social vuelve al centro histórico de Bogotá.",
+        "en": "Renacer Central: social housing returns to Bogotá's historic centre."
+      },
+      "essay": {
+        "es": "El proyecto entrega 177 apartamentos VIS y VIP en dos torres de doce pisos, sobre suelo central de alto valor. Primera operación pública en cuatro décadas que instala vivienda popular en el centro histórico bogotano. La escala es modesta. La señal de retórica institucional es grande.",
+        "en": "The project delivers 177 social and priority-housing units across two twelve-storey towers on central high-value land. The first public operation in four decades to place popular housing in Bogotá's historic centre. The scale is modest. The institutional rhetoric signal is large."
+      },
+      "url": "https://bogota.gov.co/mi-ciudad/habitat/177-familias-accederan-vivienda-social-en-el-centro-de-bogota-2026",
+      "source": "bogota.gov.co",
+      "tags": ["vivienda", "colombia", "ciudad"]
+    },
+    {
+      "id": "S.11",
+      "type": "bite",
+      "date": "2026-05-13",
+      "title": {
+        "es": "Soacha: vivienda progresiva como técnica replicable de bajo costo.",
+        "en": "Soacha: progressive housing as a replicable low-cost technique."
+      },
+      "essay": {
+        "es": "Un equipo académico desarrolló prototipos habitacionales con estructura fija y servicios concentrados, que se expanden interiormente según capacidad económica de cada hogar. Permite acceso a vivienda popular sin entregar inmueble terminado. Replicable a costo bajo en otras periferias latinoamericanas.",
+        "en": "An academic team developed housing prototypes with a fixed structure and concentrated services, expandable from the inside according to each household's economic capacity. Allows access to popular housing without delivering a finished unit. Replicable at low cost across other Latin American peripheries."
+      },
+      "url": "https://revistadearquitectura.ucatolica.edu.co/article/view/1271",
+      "source": "revistadearquitectura.ucatolica.edu.co",
+      "tags": ["vivienda", "colombia", "arquitectura"]
+    },
+    {
+      "id": "S.12",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "baile3.jpg",
+      "thumbnail_alt": {
+        "es": "Baile funk carioca: la pista a 150 BPM.",
+        "en": "Carioca baile funk: the dance floor at 150 BPM."
+      },
+      "title": {
+        "es": "Funk carioca circula a 150 BPM sin doblaje al inglés.",
+        "en": "Carioca funk circulates at 150 BPM without an English dub."
+      },
+      "essay": {
+        "es": "Los productores carioca controlan catálogo, sample y lengua. El género se exporta a clubs europeos y norteamericanos sin colaboración anglo intermediaria. La generación previa del boom latino dependía de puentes (reggaetón con productor de Atlanta, K-pop con remix anglo). La generación funk fuerza al algoritmo a aceptar portugués brasileño intacto.",
+        "en": "Carioca producers control the catalogue, the sample and the language. The genre exports to European and North American clubs without an Anglo intermediary. The previous Latin boom generation depended on bridges. The funk generation forces the algorithm to accept Brazilian Portuguese intact."
+      },
+      "url": "https://latinvideoremix.com/baile-funk-dj-trend-2026/",
+      "source": "latinvideoremix.com",
+      "tags": ["música", "brasil", "funk"]
+    },
+    {
+      "id": "S.13",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://static.voguescandinavia.com/DSC_0732_8115bd9275/DSC_0732_8115bd9275.jpg",
+      "thumbnail_alt": {
+        "es": "Diseñadores peruanos en Copenhague.",
+        "en": "Peruvian designers in Copenhagen."
+      },
+      "title": {
+        "es": "Diseñadores andinos organizan colecciones por pachas, no por temporadas.",
+        "en": "Andean designers organise collections by pachas, not by seasons."
+      },
+      "essay": {
+        "es": "Hanan Pacha (ancestros, montaña), Kay Pacha (presente, cuerpo), Ukhu Pacha (germinación, futurismo indígena). La estructura tripartita reemplaza al binomio occidental tradición/innovación como gramática conceptual. Diez diseñadores peruanos viajaron a Copenhague con este marco como base de colección.",
+        "en": "Hanan Pacha (ancestors, mountain), Kay Pacha (present, body), Ukhu Pacha (germination, indigenous futurism). The tripartite structure replaces the Western tradition/innovation binary as conceptual grammar. Ten Peruvian designers travelled to Copenhagen with this frame as the basis of their collection."
+      },
+      "url": "https://www.voguescandinavia.com/articles/meet-the-10-peruvian-designers-set-to-shine-in-copenhagen-this-month",
+      "source": "voguescandinavia.com",
+      "tags": ["moda", "andino", "perú"]
+    },
+    {
+      "id": "S.14",
+      "type": "bite",
+      "date": "2026-05-13",
+      "title": {
+        "es": "Juan de la Paz mantiene cadena trazable con 30+ comunidades andinas.",
+        "en": "Juan de la Paz keeps a traceable chain with 30+ Andean communities."
+      },
+      "essay": {
+        "es": "Marca peruano-boliviana que combina técnicas ancestrales y silueta contemporánea. Mantiene cadena de trabajo declarada con más de treinta comunidades artesanas. Caso de estudio sobre cómo escalar moda andina sin colapsar la trazabilidad ni borrar a las tejedoras del crédito.",
+        "en": "A Peruvian-Bolivian brand combining ancestral techniques with contemporary silhouettes. Maintains a declared working chain with over thirty artisan communities. A case study on how to scale Andean fashion without collapsing traceability."
+      },
+      "url": "https://industry.notjustalabel.com/juan-de-la-paz",
+      "source": "notjustalabel.com",
+      "tags": ["moda", "andino", "trazabilidad"]
+    },
+    {
+      "id": "S.15",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://i0.wp.com/tamtampress.es/wp-content/uploads/2017/07/4_ankla.jpg?fit=640%2C427&ssl=1",
+      "thumbnail_alt": {
+        "es": "DJ Ankla en el ciclo Tropiférica del MUSAC.",
+        "en": "DJ Ankla in the Tropiférica cycle at MUSAC."
+      },
+      "title": {
+        "es": "Tropiférica entra al MUSAC: la cumbia digital llega al museo.",
+        "en": "Tropiférica enters the MUSAC: cumbia digital reaches the museum."
+      },
+      "essay": {
+        "es": "DJs especializados en cumbia digital programan ciclo en el Museo de Arte Contemporáneo de Castilla y León. Marca el ingreso institucional europeo del género nacido en galpones porteños de 2008. Para algunos es consagración merecida. Para el observatorio es señal de cierre de ciclo: cuando un género popular entra al museo suele haber perdido pulso de calle.",
+        "en": "DJs specialised in cumbia digital programme a cycle at the Museum of Contemporary Art of Castilla y León. It marks the European institutional entry of a genre born in Buenos Aires warehouses in 2008. For some it is deserved consecration. For the observatory it is a sign of cycle-closure."
+      },
+      "url": "https://tamtampress.es/2017/07/26/la-cumbia-digital-de-los-djs-ankla-y-bigote-llega-al-musac/",
+      "source": "tamtampress.es",
+      "tags": ["cumbia digital", "argentina", "españa", "musac"]
+    },
+    {
+      "id": "S.16",
+      "type": "bite",
+      "date": "2026-05-13",
+      "title": {
+        "es": "Guardianes por la Vida: red infantil climática con escala regional.",
+        "en": "Guardianes por la Vida: a child-led climate network at regional scale."
+      },
+      "essay": {
+        "es": "Movimiento fundado por un joven colombiano que articula a más de 700 niñas y niños, mayoritariamente latinoamericanos, en defensa ambiental y mitigación climática. Caso poco frecuente de organización juvenil climática con alcance regional declarado (no nacional ni urbano local).",
+        "en": "A movement founded by a young Colombian that articulates more than 700 children, mostly Latin American, around environmental defence and climate mitigation. A rare case of a youth climate organisation with declared regional reach."
+      },
+      "url": "https://www.unicef.org/lac/la-juventud-por-el-clima",
+      "source": "unicef.org",
+      "tags": ["clima", "juventud", "colombia"]
+    },
+    {
+      "id": "S.17",
+      "type": "bite",
+      "date": "2026-05-13",
+      "title": {
+        "es": "Engaja Jovem: 150 jóvenes brasileños cruzan clase y territorio en agenda climática.",
+        "en": "Engaja Jovem: 150 young Brazilians cross class and territory on a climate agenda."
+      },
+      "essay": {
+        "es": "Plataforma que articula juventudes indígenas, rurales, de favela y urbanas en una agenda común contra la deforestación amazónica. La novedad organizativa es la coordinación intra-clase y intra-territorial. Pocos movimientos climáticos juveniles logran mantener esa diversidad sin fracturarse en agendas paralelas.",
+        "en": "A platform that articulates indigenous, rural, favela and urban youth around a common agenda against Amazonian deforestation. The organisational novelty is the intra-class and intra-territorial coordination. Few youth climate movements manage to hold such diversity without fracturing."
+      },
+      "url": "https://www.unicef.org/ecuador/adolescentes-y-j%C3%B3venes-contra-el-cambio-clim%C3%A1tico",
+      "source": "unicef.org",
+      "tags": ["clima", "juventud", "brasil"]
+    },
+    {
+      "id": "S.18",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://latinamericanliteraturetoday.org/wp-content/uploads/2018/01/jcgellidon341850.jpg",
+      "thumbnail_alt": {
+        "es": "Cyberpunk latinoamericano según Marcelo Novoa.",
+        "en": "Latin American cyberpunk according to Marcelo Novoa."
+      },
+      "title": {
+        "es": "Cyberpunk latinoamericano: una tradición literaria que insiste en el cuerpo.",
+        "en": "Latin American cyberpunk: a literary tradition that insists on the body."
+      },
+      "essay": {
+        "es": "Marcelo Novoa documentó una constante de la ciencia ficción regional: a diferencia del cyberpunk anglo que sueña con consciencias digitales, la versión latinoamericana piensa el futuro desde cuerpos modificados, marcas, prótesis baratas y neoliberalismo escrito en la piel. La tradición reaparece con fuerza en arte visual producido con IA generativa.",
+        "en": "Marcelo Novoa documented a constant of regional science fiction: unlike Anglo cyberpunk, which dreams of digital consciousness, the Latin American version thinks the future from modified bodies, marks, cheap prosthetics and neoliberalism written on the skin. The tradition re-emerges strongly in visual art produced with generative AI."
+      },
+      "url": "https://latinamericanliteraturetoday.org/2018/02/leaving-behind-realitys-ruins-following-digital-tracks-latin-american-cyberpunk/",
+      "source": "latinamericanliteraturetoday.org",
+      "tags": ["ciencia ficción", "cuerpo", "literatura"]
+    },
+    {
+      "id": "S.19",
+      "type": "bite",
+      "date": "2026-05-13",
+      "thumbnail": "https://www.finedininglovers.lat/sites/default/files/2026-01/trend-gastronomici-2026-copertina_.jpg",
+      "thumbnail_alt": {
+        "es": "Tendencias gastronómicas 2026 en Latinoamérica.",
+        "en": "Gastronomic trends 2026 in Latin America."
+      },
+      "title": {
+        "es": "Fermentación instalada como infraestructura económica doméstica.",
+        "en": "Fermentation installed as domestic economic infrastructure."
+      },
+      "essay": {
+        "es": "Fine Dining Lovers documenta que en 2026 la fermentación se integra al hogar latinoamericano: kombuchas, misos, masas madre, chichas, tepaches. Lo importante no es el frasco premium del barrio gentrificado sino el uso doméstico antiinflacionario de la técnica. Cocinar con tiempo, en condiciones de inflación, cuesta menos que comprar bebida industrial.",
+        "en": "Fine Dining Lovers reports that in 2026 fermentation enters the Latin American home. What matters is not the premium jar in the gentrified neighbourhood but the domestic anti-inflation use of the technique. Cooking with time, under inflationary conditions, costs less than buying industrial drinks."
+      },
+      "url": "https://www.finedininglovers.lat/explorar/noticias/tendencias-gastronomicas-2026-en-latinoamerica",
+      "source": "finedininglovers.lat",
+      "tags": ["fermentación", "alimentación", "doméstico"]
     }
   ]
 }

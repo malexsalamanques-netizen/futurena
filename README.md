@@ -44,8 +44,8 @@ futurena/
     "en": "Your framing of the bite in English."
   },
   "essay": {
-    "es": "Mini ensayo de 2 a 4 frases que conecta el bite con la tesis de futureña.",
-    "en": "2–4 sentence mini essay connecting the bite to futureña's thesis."
+    "es": "Microensayo de 2 a 4 frases que conecta el bite con la tesis de futureña.",
+    "en": "2–4 sentence microessay connecting the bite to futureña's thesis."
   },
   "url": "https://source-site.com/the-original-page",
   "source": "source-site.com",

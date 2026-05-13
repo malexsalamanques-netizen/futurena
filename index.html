@@ -10,7 +10,7 @@
   <meta property="og:url" content="https://xn--futurea-9za.com/" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23111'/%3E%3Crect x='20' y='20' width='25' height='25' fill='%23fff'/%3E%3Crect x='55' y='20' width='25' height='25' fill='%23fff'/%3E%3Crect x='20' y='55' width='25' height='25' fill='%23fff'/%3E%3C/svg%3E" />
   <title>futureña — observatorio de futuros latinoamericanos</title>
-  <link rel="stylesheet" href="styles.css?v=12" />
+  <link rel="stylesheet" href="styles.css?v=17" />
 </head>
 <body>
   <header class="site-header">
@@ -28,8 +28,11 @@
     </div>
     <div class="hero">
       <h1 class="hero-title" data-i18n="title">Observatorio de futuros latinoamericanos.</h1>
-      <p class="hero-sub" data-i18n="sub">Micro ensayos y señales curadas sobre cómo la región imagina, escribe y construye lo que viene.</p>
+      <p class="hero-sub" data-i18n="sub">Microensayos y señales curadas sobre cómo la región imagina, escribe y construye lo que viene.</p>
     </div>
+  </header>
+
+  <div class="page-section">
     <div class="control-bar">
       <div class="filter-bar" role="tablist" aria-label="Filter">
         <button class="filter active" data-filter="all" role="tab" aria-selected="true" data-i18n="filter_all">Todo</button>
@@ -50,9 +53,6 @@
         <span class="search-count" data-search-count aria-live="polite"></span>
       </div>
     </div>
-  </header>
-
-  <div class="page-section">
     <p class="empty-state" data-empty hidden data-i18n="empty">Sin resultados. Probá con otra palabra.</p>
     <main class="grid" id="grid">
       <!-- Items injected by script.js -->
@@ -72,6 +72,14 @@
     </footer>
   </div>
 
-  <script src="script.js?v=12" defer></script>
+  <div class="modal" data-modal hidden aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-modal-close></div>
+    <article class="modal-content">
+      <button class="modal-close" data-modal-close aria-label="Cerrar">×</button>
+      <div class="modal-body" data-modal-body></div>
+    </article>
+  </div>
+
+  <script src="script.js?v=17" defer></script>
 </body>
 </html>

@@ -261,6 +261,7 @@ button {
 .grid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
+  border-left: 1px solid var(--line);
 }
 
 .tile {
@@ -365,12 +366,26 @@ button {
   color: var(--ink-soft);
   margin: 0 0 20px 0;
   flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Microensayos look identical to bites in the grid: same height, same density */
+.tile[data-type="microensayo"] {
+  cursor: pointer;
+}
+
+.tile[data-type="microensayo"] .tile-sources {
+  display: none;
 }
 
 .tile-footer {
   margin-top: auto;
   padding-top: 16px;
-  border-top: 1px solid var(--line-soft);
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.1em;
@@ -520,6 +535,159 @@ button {
   .header-grid { flex-direction: row; }
   .filter-bar { gap: 6px; }
   .filter { padding: 6px 10px; }
+}
+
+/* ---------- Modal (microensayo full read) ---------- */
+
+.modal[hidden] { display: none; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(12px, 4vw, 40px);
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 17, 17, 0.72);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  background: var(--paper);
+  width: min(820px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  padding: clamp(28px, 4vw, 56px);
+}
+
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+  color: var(--ink);
+}
+
+.modal-close:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.modal-body .modal-thumb {
+  width: calc(100% + clamp(56px, 8vw, 112px));
+  margin: calc(-1 * clamp(28px, 4vw, 56px)) calc(-1 * clamp(28px, 4vw, 56px)) clamp(20px, 3vw, 32px) calc(-1 * clamp(28px, 4vw, 56px));
+  aspect-ratio: 16 / 7;
+  overflow: hidden;
+  background: var(--line-soft);
+}
+
+.modal-body .modal-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.modal-body .modal-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.modal-body .modal-title {
+  font-size: clamp(22px, 2.6vw, 32px);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  margin: 0 0 16px 0;
+}
+
+.modal-body .modal-essay {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0 0 28px 0;
+  white-space: pre-wrap;
+}
+
+.modal-body .modal-essay p {
+  margin: 0 0 16px 0;
+}
+
+.modal-body .modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.modal-body .modal-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+  border: 1px solid var(--line-soft);
+  padding: 2px 8px;
+}
+
+.modal-body .modal-sources-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 8px 0;
+}
+
+.modal-body .modal-sources {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--line-soft);
+}
+
+.modal-body .modal-sources li {
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.modal-body .modal-sources a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  transition: padding 200ms ease;
+}
+
+.modal-body .modal-sources a:hover {
+  padding-left: 8px;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 /* ---------- Reduced motion ---------- */
